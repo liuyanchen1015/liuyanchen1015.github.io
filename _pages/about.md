@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 <p>	
 	My name is Yanchen Liu, in Chinese 刘延晨. I am a <b>first-year graduate student in Data Science </b> at <a href=“https://seas.harvard.edu/”  target="_blank" rel="external">Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS)</a>.
-	Besides, I also cross-registered at <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology (MIT)</a> as a Computer Science student.
+	Besides, I also cross-register at <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology (MIT)</a> as a Computer Science student.
 </p>
 	
 <p>	
