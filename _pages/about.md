@@ -17,9 +17,49 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<p>	
+	My name is Yanchen Liu, in Chinese 刘延晨. I am a <b>first-year graduate student in Data Science </b> at <a href=“https://seas.harvard.edu/”  target="_blank" rel="external">Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS)</a>.
+	Besides, I also cross-registered at <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology (MIT)</a> as a Computer Science student.
+</p>
+	
+<p>	
+	Previously, I obtained my Bachelor's degree in <b>Computer Science</b> 
+		from the <a href="https://www.tum.de/en/"  target="_blank" > Technical University of Munich (TUM)</a>.
+	I also minored in <b>Computational Linguistics</b> at the <a href="https://www.lmu.de/en/" target="_blank">Ludwig Maximilian University of Munich (LMU)</a>.
+</p>
+	
+<p>
+	<b style="color:red">
+	Currently</b>, I am a research intern in the 
+			<a href="https://cs.stanford.edu/~diyiy/group.html" target="_blank" rel="external">
+			Social and Language Technologies (SALT) lab</a>, 
+			<a href="https://nlp.stanford.edu/" target="_blank" rel="external">
+			Stanford NLP Group</a> at 
+			<a href="https://www.stanford.edu/" target="_blank" rel="external">
+			Stanford</a>, working with Prof.
+			<a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="external">
+			Diyi Yang</a>.
+	
+	
+		Besides, I am also a member of 
+		<a href="https://vcg.seas.harvard.edu/" target="_blank" rel="external">
+			Visual Computing Group (VCG)</a>, at 
+		<a href="https://www.harvard.edu/" target="_blank" rel="external">
+			Harvard John A. Paulson School of Engineering and Applied Sciences</a>, and
+		<a href="https://cbs.fas.harvard.edu/" target="_blank" rel="external">
+			the Center for Brain Science</a>, 
+		working with 
+		Prof. <a href="https://scholar.google.com/citations?user=VWX-GMAAAAAJ&hl=en" target="_blank" rel="external">
+			Hanspeter Pfister</a>.
+	<br>
+	
+	Prior to that, I was fortunated to be supervised by
+		Prof. <a href="https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en" target="_blank" rel="external">Hinrich Schütze</a> 
+		at the <a href="https://schuetze.cis.lmu.de/" target="_blank">Center for Information and Language Processing</a>, 
+		LMU.
+</p>
+<p>
+	<b>Research Interests</b>: I mainly focus on 
+	<b style="color:blue">Deep Learning</b> & 
+	<b style="color:blue">Natural Language Processing</b>. 
+</p>
