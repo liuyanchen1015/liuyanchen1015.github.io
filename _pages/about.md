@@ -2,17 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Graudate<a href="https://www.harvard.edu/" target="_blank">@Harvard Univerisity</a> <br>
+	  Cross-Registered<a href="https://www.mit.edu/" target="_blank">@Massachusetts Institute of Technology</a>
 
 profile:
   align: right
   image: me.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Cambridge, MA, USA 02138</p>
-<!--     <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p> -->
+	<p>
+		<a href="https://seas.harvard.edu/" target="_blank">Data Science, School of Engineering and Applied Sciences (SEAS)</a> <br>
+		<a href="https://gsas.harvard.edu/" target="_blank">Graduate School of Arts and Sciences (GSAS)</a> <br>
+		<a href="https://www.harvard.edu/" target="_blank">Harvard Univerisity</a><br>
+		Cambridge, MA, USA 02138 <br>
+		Email: <a href="mailto:yanchenliu@fas.harvard.edu">yanchenliu@fas.harvard.edu </a> <br>
+		<a href="mailto:yanch353@mit.edu">yanch353@mit.edu</a>
+	</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
