@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description:  111
+description:  
 abbrs: [MoA, SOUP, robo]
 nav: true
 nav_order: 1
