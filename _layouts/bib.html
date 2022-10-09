@@ -101,6 +101,9 @@
                 }, '{{site.more_authors_animation_delay}}');
                 "
             >{{more_authors_hide}}</span>
+            {%- if entry.publisher -%}
+                  <div class="publisher">{{entry.publisher}}</div>
+            {%- endif -%}
           {%- endif -%}
 
           </div>
