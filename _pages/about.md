@@ -7,7 +7,7 @@ profile:
   align: right
   image: me.png
   image_circular: false # crops the image to make it circular
-  address: <font size="2">Graduate School of Arts and Sciences (GSAS), Harvard<br>Cambridge, MA, USA 02138</font>
+  address: Graduate School of Arts and Sciences (GSAS), Harvard<br>Cambridge, MA, USA 02138
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -22,7 +22,7 @@ Besides, I also cross-register at Massachusetts Institute of Technology (MIT).
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 Besides, I am also a member of 
 	[Visual Computing Group (VCG)](https://vcg.seas.harvard.edu/), at 
-	Harvard John A. Paulson School of Engineering and Applied Sciences([SEAS](https://seas.harvard.edu/)), and the 
+	Harvard John A. Paulson School of Engineering and Applied Sciences ([SEAS](https://seas.harvard.edu/)), and the 
 	[Center for Brain Science](https://cbs.fas.harvard.edu/), working with Prof. 
 	[Hanspeter Pfister](https://scholar.google.com/citations?user=VWX-GMAAAAAJ&hl=en).
 	
