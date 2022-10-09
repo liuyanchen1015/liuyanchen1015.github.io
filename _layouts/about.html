@@ -45,15 +45,9 @@ layout: default
           <br>
           {%- include news.html %}
           {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-        
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
-            <br>
             <div class="contact-icons">
             {% include social.html %}
             </div>  
@@ -64,6 +58,11 @@ layout: default
                 
           </div>
           {%- endif %}
+          {% if page.selected_papers -%}
+            <!-- Selected papers -->
+            {%- include selected_papers.html %}
+          {%- endif %}
+       
               
           <div class="logo">
           <br><br><br><br><br><br>
