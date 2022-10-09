@@ -2,28 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle:  <!-- <font size="2.2">Graudate<a href="https://www.harvard.edu/" target="_blank">@Harvard Univerisity</a> <br> Cross-Registered<a href="https://www.mit.edu/" target="_blank">@Massachusetts Institute of Technology</font>  -->
-
+subtitle:
 profile:
   align: right
   image: me.png
   image_circular: false # crops the image to make it circular
-  address: Graduate School of Arts and Sciences (GSAS)<br>Harvard Univerisity<br>Cambridge, MA, USA 02138
+  address: <font size='2'>Graduate School of Arts and Sciences (GSAS)<br>Harvard Univerisity<br>Cambridge, MA, USA 02138</font>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I am a **first-year graduate student** at [Harvard Univerisity](https://www.harvard.edu/).
-Besides, I also cross-register at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/).
+I am a **first-year graduate student** at Harvard Univerisity.
+Besides, I also cross-register at Massachusetts Institute of Technology (MIT).
 
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/) at 
-	[Stanford](https://www.stanford.edu/), working with Prof.
+	Stanford, working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 Besides, I am also a member of 
 	[Visual Computing Group (VCG)](https://vcg.seas.harvard.edu/), at 
-	[Harvard John A. Paulson School of Engineering and Applied Sciences](https://www.harvard.edu/), and the 
+	Harvard John A. Paulson School of Engineering and Applied Sciences([SEAS])(https://seas.harvard.edu/), and the 
 	[Center for Brain Science](https://cbs.fas.harvard.edu/), working with Prof. 
 	[Hanspeter Pfister](https://scholar.google.com/citations?user=VWX-GMAAAAAJ&hl=en).
 	
