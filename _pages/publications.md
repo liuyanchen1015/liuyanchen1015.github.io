@@ -11,7 +11,7 @@ nav_order: 1
 <div class="publications">
 
 {%- for x in page.abbrs %}
-  <h2 class="year">  </h2>
+  <h2 class="year">{ }</h2>
   {% bibliography -f papers -q @*[abbr={{x}}]* %}
 {% endfor %}
 
