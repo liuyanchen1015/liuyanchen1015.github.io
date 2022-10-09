@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  <font size="3">Graudate<a href="https://www.harvard.edu/" target="_blank">@Harvard Univerisity</a> <br> Cross-Registered<a href="https://www.mit.edu/" target="_blank">@Massachusetts Institute of Technology</font> 
+subtitle:  <font size="2.2">Graudate<a href="https://www.harvard.edu/" target="_blank">@Harvard Univerisity</a> <br> Cross-Registered<a href="https://www.mit.edu/" target="_blank">@Massachusetts Institute of Technology</font> 
 
 profile:
   align: right
@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 I am a **first-year graduate student** at [Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS)](https://seas.harvard.edu/).
 Besides, I also cross-register at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/).
 
-**<span style="color:990000">Currently</span>**, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
+**Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/) at 
 	[Stanford](https://www.stanford.edu/), working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
@@ -34,5 +34,5 @@ Previously, I obtained my Bachelor's degree in Computer Science from the
 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU.
 
 **Research Interests**: I mainly focus on 
-	<span style="color:blue">**Deep Learning** & 
-	**Natural Language Processing**</span>.
+	**Deep Learning**{: style="color:blue; opacity: 0.80;" } & 
+	**Natural Language Processing**{: style="color:blue; opacity: 0.80;" }.
