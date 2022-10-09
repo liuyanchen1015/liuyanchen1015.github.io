@@ -4,10 +4,10 @@ title: about
 permalink: /
 subtitle:
 profile:
-  align: right
+  align: left
   image: me.png
   image_circular: false # crops the image to make it circular
-  address: <p align="right"><font size="2.7">Cambridge, MA, USA 02138<br>Graduate School of Arts and Sciences, Harvard Univerisity</font></p>
+  address: <p align="left"><font size="2.7">Cambridge, MA, USA 02138<br>Graduate School of Arts and Sciences, Harvard Univerisity</font></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
