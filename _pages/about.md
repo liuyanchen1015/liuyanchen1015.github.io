@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: Graudate<a href="https://www.harvard.edu/" target="_blank">@Harvard Univerisity</a>
-	  Cross-Registered<a href="https://www.mit.edu/" target="_blank">@Massachusetts Institute of Technology</a>
 
 profile:
   align: right
