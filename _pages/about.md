@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  <font size="2.2">Graudate<a href="https://www.harvard.edu/" target="_blank">@Harvard Univerisity</a> <br> Cross-Registered<a href="https://www.mit.edu/" target="_blank">@Massachusetts Institute of Technology</font> 
+subtitle:  <!-- <font size="2.2">Graudate<a href="https://www.harvard.edu/" target="_blank">@Harvard Univerisity</a> <br> Cross-Registered<a href="https://www.mit.edu/" target="_blank">@Massachusetts Institute of Technology</font>  -->
 
 profile:
   align: right
