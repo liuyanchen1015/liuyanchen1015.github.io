@@ -45,27 +45,8 @@ layout: default
           <br><br>
           {%- include news.html %}
           {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>  
-                
-            <div class="contact-note">
-            {{ site.contact_note }}
-            </div>
-                
-          </div>
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-       
-              
           <div class="logo">
-          <br><br><br><br><br><br>
+          
            <p> <center>
                   <a href="https://www.harvard.edu/" target="_blank">
                         <img src="./assets/img/harvard.png" height="90px" style="margin-bottom:-3px; margin-right:10px">
@@ -86,7 +67,28 @@ layout: default
                         <img src="./assets/img/tsinghua.png" height="90px" style="margin-bottom:-3px">
                   </a>
            </center> </p>
+          </div>              
+          
+          {% if page.selected_papers -%}
+            <!-- Selected papers -->
+            {%- include selected_papers.html %}
+          {%- endif %}
+           
+          {%- if page.social %}
+          <!-- Social -->
+          <div class="social">
+            <div class="contact-icons">
+            {% include social.html %}
+            </div>  
+                
+            <div class="contact-note">
+            {{ site.contact_note }}
+            </div>
+                
           </div>
+          {%- endif %}              
+              
+
      
         </article>
 
