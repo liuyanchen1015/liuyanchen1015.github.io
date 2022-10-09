@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: Graudate@Harvard Univerisity
+Cross-Registered@Massachusetts Institute of Technology
 
 profile:
   align: right
