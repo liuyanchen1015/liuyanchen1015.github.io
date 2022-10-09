@@ -7,7 +7,7 @@ profile:
   align: right
   image: me.png
   image_circular: false # crops the image to make it circular
-  address: <font size="2.5">Cambridge, MA, USA 02138<br>Graduate School of Arts and Sciences, Harvard Univerisity</font>
+  address: <p align="right"><font size="2.5">Cambridge, MA, USA 02138<br>Graduate School of Arts and Sciences, Harvard Univerisity</font></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
