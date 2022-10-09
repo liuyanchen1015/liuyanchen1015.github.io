@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 My name is Yanchen Liu, in Chinese 刘延晨. I am a **first-year graduate student in Data Science** at [Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS)](https://seas.harvard.edu/).
 Besides, I also cross-register at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/) as a Computer Science student.
 
-**Currently**, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
+**<font color=Red>Currently</font>**, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/) at 
 	[Stanford](https://www.stanford.edu/), working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
