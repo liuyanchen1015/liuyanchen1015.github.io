@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Graudate@[Harvard Univerisity](https://www.harvard.edu/)  
-Cross-Registered@[Massachusetts Institute of Technology](https://www.mit.edu/)
+subtitle: 
 
 profile:
   align: right
