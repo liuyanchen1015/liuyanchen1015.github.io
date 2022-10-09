@@ -8,13 +8,13 @@ profile:
   align: right
   image: me.png
   image_circular: false # crops the image to make it circular
-  address: <a href="https://seas.harvard.edu/" target="_blank">Data Science, School of Engineering and Applied Sciences (SEAS)</a> <br> <a href="https://gsas.harvard.edu/" target="_blank">Graduate School of Arts and Sciences (GSAS)</a> <br>. <a href="https://www.harvard.edu/" target="_blank">Harvard Univerisity</a><br> Cambridge, MA, USA 02138
+  address: Graduate School of Arts and Sciences (GSAS)<br>Harvard Univerisity<br>Cambridge, MA, USA 02138
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I am a **first-year graduate student** at [Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS)](https://seas.harvard.edu/).
+I am a **first-year graduate student** at [Harvard Univerisity](https://www.harvard.edu/).
 Besides, I also cross-register at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/).
 
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
