@@ -8,7 +8,12 @@ profile:
   align: right
   image: me.png
   image_circular: false # crops the image to make it circular
-  address: 1
+  address: <a href="https://seas.harvard.edu/" target="_blank">Data Science, School of Engineering and Applied Sciences (SEAS)</a> <br>
+			<a href="https://gsas.harvard.edu/" target="_blank">Graduate School of Arts and Sciences (GSAS)</a> <br>
+			<a href="https://www.harvard.edu/" target="_blank">Harvard Univerisity</a><br>
+			Cambridge, MA, USA 02138 <br>
+			Email: <a href="mailto:yanchenliu@fas.harvard.edu">yanchenliu@fas.harvard.edu </a> <br>
+			<a href="mailto:yanch353@mit.edu">yanch353@mit.edu</a>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
