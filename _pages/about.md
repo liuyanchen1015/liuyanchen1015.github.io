@@ -22,7 +22,7 @@ Besides, I also cross-register at Massachusetts Institute of Technology (MIT).
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 Besides, I am also a member of 
 	[Visual Computing Group (VCG)](https://vcg.seas.harvard.edu/), at 
-	Harvard John A. Paulson School of Engineering and Applied Sciences([SEAS])(https://seas.harvard.edu/), and the 
+	Harvard John A. Paulson School of Engineering and Applied Sciences([SEAS](https://seas.harvard.edu/)), and the 
 	[Center for Brain Science](https://cbs.fas.harvard.edu/), working with Prof. 
 	[Hanspeter Pfister](https://scholar.google.com/citations?user=VWX-GMAAAAAJ&hl=en).
 	
