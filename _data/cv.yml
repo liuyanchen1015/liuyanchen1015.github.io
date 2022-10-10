@@ -1,5 +1,5 @@
-- title: General Information
-  type: map
+- title: 
+  type: time_table
   contents:
     - name: Full Name
       value: Albert Einstein
