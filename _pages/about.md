@@ -19,7 +19,7 @@ Besides, I also cross-register at [Massachusetts Institute of Technology (MIT)](
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/), working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
-Also, I am a member of 
+Also, I am a research intern of 
 	[Visual Computing Group (VCG)](https://vcg.seas.harvard.edu/) at 
 	Harvard John A. Paulson School of Engineering and Applied Sciences and the 
 	[Center for Brain Science](https://cbs.fas.harvard.edu/), working with Prof. 
