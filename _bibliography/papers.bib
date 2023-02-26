@@ -2,7 +2,7 @@
 ---
 
 @manuscript{soup,
-  abbr={SOUP},
+  abbr={Preprint},
   bibtex_show={true},
   title={Semantic-Oriented Unlabeled Priming for Large-Scale Language Models},
   abstract={Due to the high costs associated with finetuning large language models, various recent works propose to adapt them to specific tasks without any parameter updates through in-context learning. Unfortunately, for in-context learning there is currently no way to leverage unlabeled data, which is often much easier to obtain in large quantities than labeled examples. In this work, we therefore investigate ways to make use of unlabeled examples to improve the zero-shot performance of pretrained language models without any finetuning: We introduce Semantic-Oriented Unlabeled Priming (SOUP), a method that classifies examples by retrieving semantically similar unlabeled examples, assigning labels to them in a zero-shot fashion, and then using them for in-context learning. We also propose bag-of-contexts priming, a new priming strategy that is more suitable for our setting and enables the usage of more examples than fit into the context window.},
@@ -14,16 +14,16 @@
 }
 
 @manuscript{MoA,
-  abbr={MoA},
+  abbr={Preprint},
   bibtex_show={false},
-  title={Parameter-Efficient Learning for Debiasing},
-  author={Liu, Yanchen},
+  title={SMoA:Sparse Mixture of Adapters to Mitigate Multiple Dataset Biases},
+  author={Liu，Yanchen and Yan, Jing and Chen, Yan and Liu, Jing and Wang, Haifeng},
   year={2022},
   selected={false}
 }
 
 @inproceedings{robo,
-  abbr={robo},
+  abbr={ICMA},
   bibtex_show={true},
   title={Custom Sine Waves Are Enough for Imitation Learning of Bipedal Gaits with Different Styles},
   abstract={Not until recently, robust bipedal locomotion has been achieved through reinforcement learning. However, existing implementations rely heavily on insights and efforts from human experts, which is costly for the iterative design of robot systems. Also, styles of the learned motion are strictly limited to that of the reference. In this paper, we propose a new way to learn bipedal locomotion from a simple sine wave as the reference for foot heights. With the naive human insight that the two feet should be lifted up alternatively and periodically, we experimentally demonstrate on the Cassie robot that, a simple reward function is able to make the robot learn to walk end-to-end and efficiently without any explicit knowledge of the model. With custom sine waves, the learned gait pattern can also have customized styles.},
