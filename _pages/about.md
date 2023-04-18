@@ -25,8 +25,8 @@ Besides, I also cross-register at [MIT](https://www.mit.edu/).
 	[Center for Brain Science](https://cbs.fas.harvard.edu/), working with Prof. 
 	[Hanspeter Pfister](https://scholar.google.com/citations?user=VWX-GMAAAAAJ&hl=en). -->
 	
-Previously, I obtained my Bachelor's degree in Computer Science from the 
-	[TUM](https://www.tum.de/en/). I also minored in Computational Linguistics at the 
+Previously, I obtained my Bachelor's degree in Computer Science from 
+	[TUM](https://www.tum.de/en/). I also minored in Computational Linguistics at 
 	[LMU](https://www.lmu.de/en/). During my undergraduate studies, I was fortunate to be supervised by Prof. 
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU.
