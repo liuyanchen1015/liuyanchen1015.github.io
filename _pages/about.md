@@ -31,6 +31,4 @@ Previously, I obtained my Bachelor's degree in Computer Science from the
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU.
 
-**Research Interests**: I mainly focus on 
-	**Deep Learning**{: style="color:blue; opacity: 0.80;" } & 
-	**Natural Language Processing**{: style="color:blue; opacity: 0.80;" }.
+**Research Interests**: My primary research interests lie in **Natural Language Processing**{: style="color:blue; opacity: 0.80;" }, with a particular focus on **Efficiency**{: style="color:#990000; opacity: 0.80;" } (adapter, prompting, in-context learning), **Reliability and Fairness**{: style="color:#990000; opacity: 0.80;" } (social biases, toxicity and other social impacts) of Large Language Models (LLMs).
