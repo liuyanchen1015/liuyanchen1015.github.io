@@ -13,8 +13,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I am a **first-year graduate student** at [Harvard University](https://www.harvard.edu/).
-Besides, I also cross-register at [MIT](https://www.mit.edu/).
+I am a **first-year graduate student** at [Harvard University](https://www.harvard.edu/), concurrently cross-registered at [MIT](https://www.mit.edu/).
 
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/), working with Prof.
@@ -26,7 +25,7 @@ Besides, I also cross-register at [MIT](https://www.mit.edu/).
 	[Hanspeter Pfister](https://scholar.google.com/citations?user=VWX-GMAAAAAJ&hl=en). -->
 	
 Previously, I obtained my Bachelor's degree in Computer Science from 
-	[TUM](https://www.tum.de/en/). I also minored in Computational Linguistics at 
+	[TUM](https://www.tum.de/en/) and also minored in Computational Linguistics at 
 	[LMU](https://www.lmu.de/en/). During my undergraduate studies, I was fortunate to be supervised by Prof. 
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU.
