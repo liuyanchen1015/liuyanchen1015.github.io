@@ -13,10 +13,10 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I am a **first-year graduate student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/harvard.png" alt="h" height="20px"> , concurrently cross-registered at [MIT](https://www.mit.edu/).
+I am a **first-year graduate student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/harvard.png" alt="h" height="20px"> , concurrently cross-registered at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="20px">.
 
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
-	[Stanford NLP Group](https://nlp.stanford.edu/), working with Prof.
+	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/S.png" alt="s" height="20px">, working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 <!-- Also, I am a research assistant of 
 	AI4LIFE Group at 
@@ -24,8 +24,8 @@ I am a **first-year graduate student** at [Harvard University](https://www.harva
 	[Hima Lakkaraju](https://himalakkaraju.github.io/). -->
 	
 I completed my Bachelor's degree in Computer Science from 
-	[TUM](https://www.tum.de/en/), with a minor in Computational Linguistics at 
-	[LMU](https://www.lmu.de/en/). During my undergraduate studies, I was fortunate to be supervised by Prof. 
+	[TUM](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="20px">, with a minor in Computational Linguistics at 
+	[LMU](https://www.lmu.de/en/) <img src="assets/img/LMU.jpeg" alt="lmu" height="20px">. During my undergraduate studies, I was fortunate to be supervised by Prof. 
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU.
 
