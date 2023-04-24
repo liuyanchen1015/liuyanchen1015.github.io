@@ -1,12 +1,15 @@
 "Hinrich":
   - firstname: ["Hinrich", "Schütze", "Hinrich Schütze"]
+    lastname: ["Hinrich", "Schütze", "Hinrich Schütze"]
     url: https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en
 
 "Timo":
   - firstname: ["Timo", "Shick", "Timo Shick"]
+    lastname: ["Timo", "Shick", "Timo Shick"]
     url: https://scholar.google.de/citations?user=k8CKy5UAAAAJ&hl=en
 
 "zc":
   - firstname: ["Chong", "Chong Zhang"]
+    lastname: ["Chong", "Chong Zhang"]
     url: https://zita-ch.github.io/
 
