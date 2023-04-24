@@ -23,13 +23,12 @@ I am a **first-year graduate student** at [Harvard University](https://www.harva
 	AI4LIFE Group at 
 	Harvard John A. Paulson School of Engineering and Applied Sciences, working with Prof. 
 	[Hima Lakkaraju](https://himalakkaraju.github.io/). --> 
-	I completed my Bachelor's degree in Computer Science from 
+	
+I completed my Bachelor's degree in Computer Science from 
 	[TUM](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="13px"> , with a minor in Computational Linguistics at 
 	[LMU](https://www.lmu.de/en/) <img src="assets/img/LMU.jpeg" alt="lmu" height="18px"> . During my undergraduate studies, I was fortunate to be supervised by Prof. 
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
 	Center for Information and Language Processing, LMU.
 <!-- 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU. -->
 
-**Research Interests:** My primary research interests lie in NLP, with a particular focus on LLMs' <br />
-- **Efficiency:**{: style="color:#990000; opacity: 0.80;" } adapter, prompting, in-context learning; <br />
-- **Reliability and Fairness:**{: style="color:#990000; opacity: 0.80;" } social biases, toxicity and other social impacts.
+**Research Interests:** My primary research interests lie in NLP, with a particular focus on LLMs' <br /> **Efficiency:**{: style="color:#990000; opacity: 0.80;" } adapter, prompting, in-context learning; <br /> **Reliability and Fairness:**{: style="color:#990000; opacity: 0.80;" } social biases, toxicity and other social impacts.
