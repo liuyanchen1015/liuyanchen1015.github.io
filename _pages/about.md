@@ -17,8 +17,8 @@ I am a **first-year graduate student** at [Harvard University](https://www.harva
 
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	Stanford NLP Group <img src="assets/img/Stanford.png" alt="s" height="19px">, working with Prof.
-<!-- 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px">, working with Prof. -->
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
+<!-- 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px">, working with Prof. -->
 <!-- Also, I am a research assistant of 
 	AI4LIFE Group at 
 	Harvard John A. Paulson School of Engineering and Applied Sciences, working with Prof. 
