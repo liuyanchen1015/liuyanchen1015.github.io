@@ -13,11 +13,11 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I am a first-year graduate student at [**Harvard University**](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px"> , concurrently cross-registered at MIT <img src="assets/img/MIT.png" alt="mit" height="13px"> .
+I am a **first-year graduate student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px"> , concurrently cross-registered at MIT <img src="assets/img/MIT.png" alt="mit" height="13px"> .
 
-**Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [**Social and Language Technologies (SALT) lab**](https://cs.stanford.edu/~diyiy/group.html), 
+**Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	Stanford NLP Group <img src="assets/img/Stanford.png" alt="s" height="19px"> , working with Prof.
-	[**Diyi Yang**](https://cs.stanford.edu/~diyiy/index.html).
+	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 <!-- 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , working with Prof. -->
 <!-- Also, I am a research assistant of 
 	AI4LIFE Group at 
@@ -25,10 +25,12 @@ I am a first-year graduate student at [**Harvard University**](https://www.harva
 	[Hima Lakkaraju](https://himalakkaraju.github.io/). -->
 	
 I completed my Bachelor's degree in Computer Science from 
-	[**TUM**](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="13px"> , with a minor in Computational Linguistics at 
-	[**LMU**](https://www.lmu.de/en/) <img src="assets/img/LMU.jpeg" alt="lmu" height="18px"> . During my undergraduate studies, I was fortunate to be supervised by Prof. 
-	[**Hinrich Schütze**](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
+	[TUM](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="13px"> , with a minor in Computational Linguistics at 
+	[LMU](https://www.lmu.de/en/) <img src="assets/img/LMU.jpeg" alt="lmu" height="18px"> . During my undergraduate studies, I was fortunate to be supervised by Prof. 
+	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
 	Center for Information and Language Processing, LMU.
 <!-- 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU. -->
 
-**Research Interests**: My primary research interests lie in NLP, with a particular focus on LLMs' **Efficiency**{: style="color:#990000; opacity: 0.80;" } (adapter, prompting, in-context learning), **Reliability and Fairness**{: style="color:#990000; opacity: 0.80;" } (social biases, toxicity and other social impacts).
+**Research Interests:** My primary research interests lie in NLP, with a particular focus on LLMs' <br />
+**Efficiency**{: style="color:#990000; opacity: 0.80;" }: adapter, prompting, in-context learning; <br />
+**Reliability and Fairness**{: style="color:#990000; opacity: 0.80;" }: social biases, toxicity and other social impacts.
