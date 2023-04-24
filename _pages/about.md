@@ -22,9 +22,8 @@ I am a **first-year graduate student** at [Harvard University](https://www.harva
 <!-- Also, I am a research assistant of 
 	AI4LIFE Group at 
 	Harvard John A. Paulson School of Engineering and Applied Sciences, working with Prof. 
-	[Hima Lakkaraju](https://himalakkaraju.github.io/). -->
-	
-I completed my Bachelor's degree in Computer Science from 
+	[Hima Lakkaraju](https://himalakkaraju.github.io/). --> 
+	I completed my Bachelor's degree in Computer Science from 
 	[TUM](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="13px"> , with a minor in Computational Linguistics at 
 	[LMU](https://www.lmu.de/en/) <img src="assets/img/LMU.jpeg" alt="lmu" height="18px"> . During my undergraduate studies, I was fortunate to be supervised by Prof. 
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
