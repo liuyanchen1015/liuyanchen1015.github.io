@@ -19,15 +19,14 @@ I am a **first-year graduate student** at [Harvard University](https://www.harva
 	[Stanford NLP Group](https://nlp.stanford.edu/), working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 <!-- Also, I am a research assistant of 
-	[Visual Computing Group (VCG)](https://vcg.seas.harvard.edu/) at 
-	Harvard John A. Paulson School of Engineering and Applied Sciences and the 
-	[Center for Brain Science](https://cbs.fas.harvard.edu/), working with Prof. 
-	[Hanspeter Pfister](https://scholar.google.com/citations?user=VWX-GMAAAAAJ&hl=en). -->
+	AI4LIFE Group at 
+	Harvard John A. Paulson School of Engineering and Applied Sciences, working with Prof. 
+	[Hima Lakkaraju](https://himalakkaraju.github.io/). -->
 	
-Previously, I obtained my Bachelor's degree in Computer Science from 
-	[TUM](https://www.tum.de/en/) and also minored in Computational Linguistics at 
+I completed my Bachelor's degree in Computer Science from 
+	[TUM](https://www.tum.de/en/), with a minor in Computational Linguistics at 
 	[LMU](https://www.lmu.de/en/). During my undergraduate studies, I was fortunate to be supervised by Prof. 
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU.
 
-**Research Interests**: My primary research interests lie in **Natural Language Processing**{: style="color:blue; opacity: 0.80;" }, with a particular focus on **Efficiency**{: style="color:#990000; opacity: 0.80;" } (adapter, prompting, in-context learning), **Reliability and Fairness**{: style="color:#990000; opacity: 0.80;" } (social biases, toxicity and other social impacts) of Large Language Models (LLMs).
+**Research Interests**: My primary research interests lie in **Natural Language Processing**{: style="color:blue; opacity: 0.80;" }, with a particular focus on LLMs' **Efficiency**{: style="color:#990000; opacity: 0.80;" } (adapter, prompting, in-context learning), **Reliability and Fairness**{: style="color:#990000; opacity: 0.80;" } (social biases, toxicity and other social impacts).
