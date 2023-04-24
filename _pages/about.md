@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 I am a **first-year graduate student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px"> , concurrently cross-registered at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="13px">.
 
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
-	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/S.png" alt="s" height="20px">, working with Prof.
+	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/S.png" alt="s" height="19px">, working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 <!-- Also, I am a research assistant of 
 	AI4LIFE Group at 
