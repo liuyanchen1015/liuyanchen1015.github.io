@@ -30,4 +30,4 @@ I completed my Bachelor's degree in Computer Science from
 	Center for Information and Language Processing, LMU.
 <!-- 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU. -->
 
-**Research Interests:** My primary research interests are focused on NLP, with a particular emphasis on LLMs' 1) `Efficiency:` adapters, prompting, in-context learning; 2) `Reliability and Fairness:` social biases, toxicity and other social impacts.
+**Research Interests:** My primary research interests are focused on NLP, with a particular emphasis on LLMs' i) `Efficiency:` adapters, prompting, in-context learning; ii) `Reliability and Fairness:` social biases, toxicity and other social impacts.
