@@ -5,6 +5,14 @@
 "Schick":
   - firstname: ["Timo", "Timo Schick"]
     url: https://scholar.google.de/citations?user=k8CKy5UAAAAJ&hl=en
+    
+"Yang":
+  - firstname: ["Diyi", "Diyi Yang"]
+    url: https://cs.stanford.edu/~diyiy/index.html
+    
+"Held":
+  - firstname: ["William", "William Held"]
+    url: https://williamheld.com/
 
 "Zhang":
   - firstname: ["Chong", "Chong Zhang"]
