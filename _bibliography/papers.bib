@@ -1,27 +1,44 @@
 ---
 ---
 
-
-@manuscript{Liu2022sMixtureAdapters,
+@inproceedings{Liu2023DADA,
   abbr={Preprint},
-  bibtex_show={false},
+  bibtex_show={true},
+  title={DADA: Dialect Adaptation via Dynamic Aggregation of Linguistic Rules},
+  abstract={Existing large language models (LLMs) that mainly focus on Standard American English (SAE) often lead to significantly worse performance when being applied to other English dialects. While existing mitigations tackle discrepancies for individual target dialects, they assume access to high-accuracy dialect identification systems. The boundaries between dialects are inherently flexible, making it difficult to categorize language into discrete predefined categories. In this paper, we propose DADA (Dialect Adaptation via Dynamic Aggregation), a modular approach to imbue SAE-trained models with multi-dialectal robustness by composing adapters which handle specific linguistic features. The compositional architecture of DADA allows for both targeted adaptation to specific dialect variants and simultaneous adaptation to various dialects. We show that DADA is effective for both single task and instruction finetuned language models, offering an extensible and interpretable framework for adapting existing LLMs to different English dialects.},
+  author={Liu, Yanchen and Held, William and Yang, Diyi},
+  year={2023},
+  html={https://arxiv.org/abs/2305.13406},
+  preview={DADA.pdf},
+  dimensions={true},
+  selected={true}
+}
+
+
+@inproceedings{Liu2022sMixtureAdapters,
+  abbr={ACL TrustNLP},
+  bibtex_show={true},
   title={SMoA: Sparse Mixture of Adapters to Mitigate Multiple Dataset Biases},
   author={Liu, Yanchen and Yan, Jing and Chen, Yan and Liu, Jing and Wu, Hua},
   abstract={Recent studies reveal that various biases exist in different NLP tasks, and over-reliance on biases results in models' poor generalization ability and low adversarial robustness. To mitigate datasets biases, previous works propose lots of debiasing techniques to tackle specific biases, which perform well on respective adversarial sets but fail to mitigate other biases. In this paper, we propose a new debiasing method Sparse Mixture-of-Adapters (SMoA), which can mitigate multiple dataset biases effectively and efficiently. Experiments on Natural Language Inference and Paraphrase Identification tasks demonstrate that SMoA outperforms full-finetuning, adapter tuning baselines, and prior strong debiasing methods. Further analysis indicates the interpretability of SMoA that sub-adapter can capture specific pattern from the training data and specialize to handle specific bias.},
   year={2023},
   html={https://arxiv.org/abs/2302.14413},
+  publisher={TrustNLP @ ACL 2023},
+  booktitle={TrustNLP @ ACL 2023},
   preview={smoa.png},
   selected={false}
 }
 
-@manuscript{Liu2022SemanticPriming,
-  abbr={Preprint},
+@inproceedings{Liu2022SemanticPriming,
+  abbr={ACL SustaiNLP},
   bibtex_show={true},
   title={Semantic-Oriented Unlabeled Priming for Large-Scale Language Models},
   abstract={Due to the high costs associated with finetuning large language models, various recent works propose to adapt them to specific tasks without any parameter updates through in-context learning. Unfortunately, for in-context learning there is currently no way to leverage unlabeled data, which is often much easier to obtain in large quantities than labeled examples. In this work, we therefore investigate ways to make use of unlabeled examples to improve the zero-shot performance of pretrained language models without any finetuning: We introduce Semantic-Oriented Unlabeled Priming (SOUP), a method that classifies examples by retrieving semantically similar unlabeled examples, assigning labels to them in a zero-shot fashion, and then using them for in-context learning. We also propose bag-of-contexts priming, a new priming strategy that is more suitable for our setting and enables the usage of more examples than fit into the context window.},
   author={Liu, Yanchen and Schick, Timo and Schütze, Hinrich},
   year={2022},
   html={https://arxiv.org/abs/2202.06133},
+  publisher={SustaiNLP @ ACL 2023},
+  booktitle={SustaiNLP @ ACL 2023},
   preview={SOUP.jpg},
   dimensions={true},
   selected={true}
