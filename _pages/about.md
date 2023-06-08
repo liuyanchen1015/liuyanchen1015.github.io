@@ -21,7 +21,7 @@ I am a **first-year graduate student** at [Harvard University](https://www.harva
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 Also, I am a research assistant of 
 	AI4LIFE Group at 
-	Harvard John A. Paulson School of Engineering and Applied Sciences, working with Prof. 
+	Harvard SEAS, working with Prof. 
 	[Hima Lakkaraju](https://himalakkaraju.github.io/). 
 	
 I completed my Bachelor's degree in Computer Science from 
