@@ -13,15 +13,16 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I am a **first-year graduate student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px"> , concurrently cross-registered at MIT <img src="assets/img/MIT.png" alt="mit" height="13px"> .
+I am a **first-year graduate student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">.
+<!-- , concurrently cross-registered at MIT <img src="assets/img/MIT.png" alt="mit" height="13px"> . -->
 
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
-<!-- Also, I am a research assistant of 
+Also, I am a research assistant of 
 	AI4LIFE Group at 
 	Harvard John A. Paulson School of Engineering and Applied Sciences, working with Prof. 
-	[Hima Lakkaraju](https://himalakkaraju.github.io/). --> 
+	[Hima Lakkaraju](https://himalakkaraju.github.io/). 
 	
 I completed my Bachelor's degree in Computer Science from 
 	[TUM](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="13px"> , with a minor in Computational Linguistics at 
