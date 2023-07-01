@@ -31,6 +31,6 @@ I completed my Bachelor's degree in Computer Science from
 	Center for Information and Language Processing, LMU.
 <!-- 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU. -->
 
-<!-- My research interests are focused on **Human-Centered NLP**, with a particular emphasis on: i) `social-aware and trustworthy NLP`; ii) `NLP for computational social science`; and iii) `augmenting humans with LLMs`. -->
-My research interests are focused on **Human-Centered NLP**, particularly: i) `social-aware and trustworthy NLP`; ii) `NLP for computational social science`; and iii) `augmenting humans with LLMs`.
+
+My research interests are focused on **Human-Centered NLP**, with a specific focus on: i) `Social-aware and Trustworthy NLP`; ii) `NLP for Computational Social Science`; and iii) `Augmenting Humans with LLMs`.
 
