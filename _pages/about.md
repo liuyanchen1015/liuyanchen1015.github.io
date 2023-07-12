@@ -24,7 +24,7 @@ Also, I am a research assistant of
 	Harvard SEAS, working with Prof. 
 	[Hima Lakkaraju](https://himalakkaraju.github.io/). 
 	
-I completed my Bachelor's degree in Computer Science from 
+I obtained my Bachelor's degree in Computer Science from 
 	[TUM](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="13px"> , with a minor in Computational Linguistics at 
 	[LMU](https://www.lmu.de/en/) <img src="assets/img/LMU.jpeg" alt="lmu" height="18px"> . During my undergraduate studies, I was fortunate to be supervised by Prof. 
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) at the 
