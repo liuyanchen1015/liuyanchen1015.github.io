@@ -61,7 +61,7 @@
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
             {%- if author_is_self -%}
-              <span style="color: #990000; opacity: 0.9;"><em>{{author.first}} {{author.last}}</em></span>
+              <p>{{author.first}} {{author.last}}</p>
             {%- else -%}
               {%- if coauthor_url -%}
                 <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
