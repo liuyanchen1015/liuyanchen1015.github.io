@@ -1,9 +1,5 @@
 ---
 ---
-.custom-style {
-    color: #990000; /* Red color */
-    opacity: 0.9;   /* Opacity of 0.9 (90%) */
-}
 
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -66,7 +62,7 @@
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
             {%- if author_is_self -%}
-              <em class="custom-color">{{author.first}} {{author.last}}</em>
+              <em style="color: #990000; opacity: 0.9;">{{author.first}} {{author.last}}</em>
             {%- else -%}
               {%- if coauthor_url -%}
                 <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
