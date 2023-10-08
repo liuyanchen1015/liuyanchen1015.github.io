@@ -14,9 +14,21 @@
   - firstname: ["William", "William Held"]
     url: https://williamheld.com/
 
-"Zhang":
-  - firstname: ["Chong", "Chong Zhang"]
-    url: https://zita-ch.github.io/
+# "Zhang":
+#   - firstname: ["Chong", "Chong Zhang"]
+#     url: https://zita-ch.github.io/
+
+"Ma":
+  - firstname: ["Xuezhe", "Xuezhe Ma"]
+    url: https://xuezhemax.github.io/
+
+"Peng":
+  - firstname: ["Nanyun", "Nanyun Peng"]
+    url: https://vnpeng.net/
+
+"Wang":
+  - firstname: ["Wei", "Wei Wang"]
+    url: https://web.cs.ucla.edu/~weiwang/
 
 "Lakkaraju":
   - firstname: ["Hima Lakkaraju", "Hima", "Himabindu Lakkaraju", "Himabindu"]
