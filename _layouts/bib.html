@@ -132,7 +132,7 @@
             <div class="tags">
                 {% assign keywords = entry.keywords | split: ',' %}
                 {% for keyword in keywords %}
-                      <span class="tag">{{ keyword | strip }}</span>
+                      <span class="tag"># {{ keyword | strip }}</span>
                 {% endfor %}
             </div>
           {% endif %}
