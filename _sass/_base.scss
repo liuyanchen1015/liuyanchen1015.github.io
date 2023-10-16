@@ -18,6 +18,11 @@
     border: 1px solid #808080; /* Gray border */
     color: var(--global-theme-color);
     text-decoration: none; /* Optional: if your tags are links and you don't want underlines */
+    transition: background-color 0.3s, border-color 0.3s; /* Optional: for a smooth color transition */
+  }
+.tag:hover {
+    background-color: #f0f0f0; /* Slightly highlighted color, you can change as you prefer */
+    cursor: pointer; /* Changes the mouse cursor on hovering */
   }
 
 // Typography
