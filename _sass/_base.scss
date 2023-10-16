@@ -9,13 +9,16 @@
 }
 
 .tag {
-  display: inline-block;
-  background-color: #eeeeee;
-  padding: 2px 6px;
-  margin: 2px;
-  border-radius: 3px;
-  font-size: 12px;
-}
+    display: inline-block;
+    background-color: #ffffff; /* 白底: White background */
+    padding: 2px 6px;
+    margin: 2px;
+    border-radius: 15px; /* 椭圆框: This will create a more elliptical shape, adjust as necessary */
+    border: 1px solid #808080; /* 灰色边缘: Gray border */
+    font-size: 12px;
+    color: myblue; /* myblue颜色字体: Text color in "myblue" - make sure to define what "myblue" is */
+    text-decoration: none; /* Optional: if your tags are links and you don't want underlines */
+  }
 
 // Typography
 
