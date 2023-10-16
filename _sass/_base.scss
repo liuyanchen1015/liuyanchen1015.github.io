@@ -15,7 +15,7 @@
     margin: 2px;
     border-radius: 15px; /* This will create a more elliptical shape, adjust as necessary */
     border: 1px solid #808080; /* Gray border */
-    color: #{$tum-color};
+    color: var(--global-theme-color);
     text-decoration: none; /* Optional: if your tags are links and you don't want underlines */
   }
 
