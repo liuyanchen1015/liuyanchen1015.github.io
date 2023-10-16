@@ -178,6 +178,11 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+          {%- if entry.tags -%}
+            {%- for tag in entry.tags -%}
+              <span class="tag">{{ tag }}</span>
+            {%- endfor -%}
+          {%- endif -%}
           </div>
 
           {% if entry.abstract -%}
