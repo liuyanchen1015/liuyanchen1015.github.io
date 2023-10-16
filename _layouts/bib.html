@@ -126,6 +126,16 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
+
+          <!-- My custom -->
+          {% if entry.keywords %}
+            <div class="tags">
+                {% assign keywords = entry.keywords | split: ',' %}
+                {% for keyword in keywords %}
+                      <span class="tag">{{ keyword | strip }}</span>
+                {% endfor %}
+            </div>
+          {% endif %}
         
           <!-- Links/Buttons -->
           <div class="links">
@@ -178,15 +188,6 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-          <!-- My custom -->
-          {% if entry.keywords %}
-            <div class="tags">
-                {% assign keywords = entry.keywords | split: ',' %}
-                {% for keyword in keywords %}
-                      <span class="tag">{{ keyword | strip }}</span>
-                {% endfor %}
-            </div>
-          {% endif %}
           </div>
 
           {% if entry.abstract -%}
