@@ -178,11 +178,15 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-          {%- if entry.keywords -%}
-            {%- for keyword in entry.keywords -%}
-              <span class="tag">{{ keyword }}</span>
-            {%- endfor -%}
-          {%- endif -%}
+          <!-- My custom -->
+          {% if entry.keywords %}
+            <div class="tags">
+                {% assign keywords = entry.keywords | split: ',' %}
+                {% for keyword in keywords %}
+                      <span class="tag">{{ keyword | strip }}</span>
+                {% endfor %}
+            </div>
+          {% endif %}
           </div>
 
           {% if entry.abstract -%}
