@@ -129,12 +129,12 @@
 
           <!-- My custom -->
           {% if entry.keywords %}
-            <div class="tags">
+<!--             <div class="tags"> -->
                 {% assign keywords = entry.keywords | split: ',' %}
                 {% for keyword in keywords %}
                       <span class="tag"># {{ keyword | strip }}</span>
                 {% endfor %}
-            </div>
+<!--             </div> -->
           {% endif %}
         
           <!-- Links/Buttons -->
