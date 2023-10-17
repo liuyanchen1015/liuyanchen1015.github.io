@@ -8,7 +8,7 @@
   abstract={Recent literature has suggested the potential of using large language models (LLMs) to make predictions for tabular tasks. However, LLMs have been shown to exhibit harmful social biases that reflect the stereotypes and inequalities present in the society. To this end, as well as the widespread use of tabular data in many high-stake applications, it is imperative to explore the following questions: what sources of information do LLMs draw upon when making predictions for tabular tasks; whether and to what extent are LLM predictions for tabular tasks influenced by social biases and stereotypes; and what are the consequential implications for fairness? Through a series of experiments, we delve into these questions and show that LLMs tend to inherit social biases from their training data which significantly impact their fairness in tabular prediction tasks. Furthermore, our investigations show that in the context of bias mitigation, though in-context learning and fine-tuning have a moderate effect, the fairness metric gap between different subgroups is still larger than that in traditional machine learning models, such as Random Forest and shallow Neural Networks. This observation emphasizes that the social biases are inherent within the LLMs themselves and inherited from their pre-training corpus, not only from the downstream task datasets. Besides, we demonstrate that label-flipping of in-context examples can significantly reduce biases, further highlighting the presence of inherent bias within LLMs.},
   author={Liu, Yanchen and Gautam, Srishti and Ma, Jiaqi and Lakkaraju, Himabindu},
   year={2023},
-  journal={<span class="small-break"></span><code>Under Review</code>},
+  venue={Under Review},
   preview={tabular_biases.png},
 }
 
@@ -20,11 +20,12 @@
   author={Ma, Mingyu Derek and Taylor, Alexander K. and Wen, Nuan and Liu, Yanchen and Kung,  Po-Nien and Qin, Wenna and Wen, Shicheng and Zhou, Azure and Yang, Diyi and Ma, Xuezhe and Peng, Nanyun and Wang, Wei},
   year={2023},
   html={https://arxiv.org/abs/2310.02529},
-  journal={<span class="small-break"></span><code>Under Review by AAAI 2024</code>},
+  venue={Under Review by AAAI 2024},
   preview={middag.png},
 }
 
 @inproceedings{Liu2023DADA,
+  dimensions={true},
   abbr={EMNLP},
   bibtex_show={true},
   title={DADA: Dialect Adaptation via Dynamic Aggregation of Linguistic Rules},
@@ -33,9 +34,9 @@
   year={2023},
   html={https://arxiv.org/abs/2305.13406},
   publisher={EMNLP 2023},
-  booktitle={<em>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</em><br><span class="small-break"></span> <code>EMNLP 2023</code>},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  venue={EMNLP 2023},
   preview={DADA.png},
-  dimensions={true},
   selected={true},
   keywords={Dialect-Inclusive, Fairness}
 }
@@ -47,7 +48,8 @@
   abstract={Large Language Models (LLMs) are trained on corpora disproportionally weighted in favor of Standard American English. As a result, speakers of other dialects experience significantly more failures when interacting with these technologies. In practice, these speakers often accommodate their speech to be better understood. Our work shares the belief that language technologies should be designed to accommodate the diversity in English dialects and not the other way around. However, prior work on dialect struggle with generalizing to evolving and emerging dialects in a scalable manner. To fill this gap, our method, HyperLoRA, leverages expert linguistic knowledge to enable resource-efficient adaptation via hypernetworks. By disentangling dialect-specific and cross-dialectal information, HyperLoRA improves generalization to unseen dialects in a task-agnostic fashion. Not only is HyperLoRA more scalable in the number of parameters, but it also achieves the best or most competitive performance across 5 dialects in a zero-shot setting. In this way, our approach facilitates access to language technology for billions of English dialect speakers who are traditionally underrepresented.},
   author={Xiao, Zedian and Held, William and Liu, Yanchen and Yang, Diyi},
   publisher={EMNLP 2023},
-  booktitle={<em>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</em><br><span class="small-break"></span> <code>EMNLP 2023</code>},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  venue={EMNLP 2023},
   year={2023},
   preview={hyperlora.png},
 }
@@ -56,17 +58,19 @@
   abbr={ACL TrustNLP},
   bibtex_show={true},
   title={SMoA: Sparse Mixture of Adapters to Mitigate Multiple Dataset Biases},
-  author={Liu, Yanchen and Yan, Jing and Chen, Yan and Liu, Jing and Wu, Hua},
   abstract={Recent studies reveal that various biases exist in different NLP tasks, and over-reliance on biases results in models' poor generalization ability and low adversarial robustness. To mitigate datasets biases, previous works propose lots of debiasing techniques to tackle specific biases, which perform well on respective adversarial sets but fail to mitigate other biases. In this paper, we propose a new debiasing method Sparse Mixture-of-Adapters (SMoA), which can mitigate multiple dataset biases effectively and efficiently. Experiments on Natural Language Inference and Paraphrase Identification tasks demonstrate that SMoA outperforms full-finetuning, adapter tuning baselines, and prior strong debiasing methods. Further analysis indicates the interpretability of SMoA that sub-adapter can capture specific pattern from the training data and specialize to handle specific bias.},
+  author={Liu, Yanchen and Yan, Jing and Chen, Yan and Liu, Jing and Wu, Hua},
   year={2023},
   html={https://arxiv.org/abs/2302.14413},
   publisher={ACL 2023},
-  booktitle={<em>ACL 2023 Workshop on Trustworthy Natural Language Processing</em><br><span class="small-break"></span> <code>TrustNLP 2023</code>},
+  booktitle={ACL 2023 Workshop on Trustworthy Natural Language Processing},
+  venue={TrustNLP 2023},
   preview={smoa.png},
   selected={false}
 }
 
 @inproceedings{Liu2022SemanticPriming,
+  dimensions={true},
   abbr={ACL SustaiNLP},
   bibtex_show={true},
   title={Semantic-Oriented Unlabeled Priming for Large-Scale Language Models},
@@ -75,9 +79,9 @@
   year={2022},
   html={https://arxiv.org/abs/2202.06133},
   publisher={ACL 2023},
-  booktitle={<em>ACL 2023 Workshop on Simple and Efficient Natural Language Processing</em><br><span class="small-break"></span> <code><i class="fas fa-award"></i> Oral, SustaiNLP 2023</code>},
+  booktitle={ACL 2023 Workshop on Simple and Efficient Natural Language Processing},
+  venue={<i class="fas fa-award"></i> Oral Presentation, SustaiNLP 2023}
   preview={SOUP.jpg},
-  dimensions={true},
   selected={true}
 }
 
@@ -87,10 +91,11 @@
   title={Custom Sine Waves Are Enough for Imitation Learning of Bipedal Gaits with Different Styles},
   abstract={Not until recently, robust bipedal locomotion has been achieved through reinforcement learning. However, existing implementations rely heavily on insights and efforts from human experts, which is costly for the iterative design of robot systems. Also, styles of the learned motion are strictly limited to that of the reference. In this paper, we propose a new way to learn bipedal locomotion from a simple sine wave as the reference for foot heights. With the naive human insight that the two feet should be lifted up alternatively and periodically, we experimentally demonstrate on the Cassie robot that, a simple reward function is able to make the robot learn to walk end-to-end and efficiently without any explicit knowledge of the model. With custom sine waves, the learned gait pattern can also have customized styles.},
   author={Wu*, Qi and Zhang*, Chong and Liu, Yanchen},
-  publisher={IEEE International Conference on Mechatronics and Automation (ICMA) 2022. Finalists of Toshio Fukuda Best Paper Award in Mechatroincs.},
-  booktitle={<em>IEEE International Conference on Mechatronics and Automation 2022</em><br><span class="small-break"></span> <code><i class="fas fa-award"></i> Finalists of Best Paper Award in Mechatronics, ICMA 2022</code>},
   year={2022},
   html={https://arxiv.org/abs/2204.04157},
+  publisher={IEEE International Conference on Mechatronics and Automation (ICMA) 2022. Finalists of Toshio Fukuda Best Paper Award in Mechatroincs.},
+  booktitle={IEEE International Conference on Mechatronics and Automation 2022},
+  venue={<i class="fas fa-award"></i> Finalists of Best Paper Award in Mechatronics, ICMA 2022},
   preview={robo.png},
   selected={false}
 }
