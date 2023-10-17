@@ -17,7 +17,7 @@
 
 .tag {
     display: inline-block;
-    // background-color: #13354C; /* Background color */
+    /* background-color: #13354C; /* Background color */
     background-color: var(--global-theme-color);
     padding: 2px 6px; /* Space around the text */
     margin: 2px; /* Space around the border */
@@ -31,9 +31,9 @@
 }
 
 .tag:hover {
-    // background-color: #f8f3dd; /* Background color when hovered */
+    /* background-color: #f8f3dd; /* Background color when hovered */
     background-color: #ffffff;
-    // color: #84A59D; /* Text color when hovered */
+    /* color: #84A59D; /* Text color when hovered */
     color: var(--global-theme-color);
     cursor: pointer; /* Cursor appearance on hover */
     border-color: #EEEEEF; /* Maintains the border color when hovered, remove if you want the border color to change */
@@ -41,7 +41,7 @@
 
 .venue {
     display: inline-block;
-    // background-color: #13354C; /* Background color */
+    /* background-color: #13354C; /* Background color */
     background-color: #970B0A;
     padding: 2px 6px; /* Space around the text */
     margin: 2px; /* Space around the border */
@@ -55,9 +55,9 @@
 }
 
 .venue:hover {
-    // background-color: #f8f3dd; /* Background color when hovered */
+    /* background-color: #f8f3dd; /* Background color when hovered */
     background-color: #ffffff;
-    // color: #84A59D; /* Text color when hovered */
+    /* color: #84A59D; /* Text color when hovered */
     color: var(--global-theme-color);
     cursor: pointer; /* Cursor appearance on hover */
     border-color: #EEEEEF; /* Maintains the border color when hovered, remove if you want the border color to change */
