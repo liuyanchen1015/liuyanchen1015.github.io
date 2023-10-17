@@ -130,12 +130,12 @@
               <span class="venue">{{entry.venue}}</span>
           {% endif %}
           {% if entry.keywords %}
-            <div class="tags-container"> 
+            <span class="tags-container"> 
                 {% assign keywords = entry.keywords | split: ',' %}
                 {% for keyword in keywords %}
                       <span class="tag"># {{ keyword | strip }}</span>
                 {% endfor %}
-            </div>
+            </span>
           {% endif %}
         {%- endif %}
         
