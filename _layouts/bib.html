@@ -125,8 +125,6 @@
           <div class="periodical">
             {{ periodical | strip }}
           </div>
-        {%- endif %}
-
           <!-- My custom -->
           {% if entry.keywords %}
 <!--             <div class="tags"> -->
@@ -136,6 +134,7 @@
                 {% endfor %}
 <!--             </div> -->
           {% endif %}
+        {%- endif %}
         
           <!-- Links/Buttons -->
           <div class="links">
