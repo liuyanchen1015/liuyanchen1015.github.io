@@ -10,7 +10,8 @@
 
 .tag {
     display: inline-block;
-    background-color: #13354C; /* Background color */
+    // background-color: #13354C; /* Background color */
+    background-color: var(--global-theme-color);
     padding: 2px 6px; /* Space around the text */
     margin: 2px; /* Space around the border */
     border-radius: 12px; /* Rounded border edges */
