@@ -127,12 +127,12 @@
           </div>
           <!-- My custom -->
           {% if entry.keywords %}
-<!--             <div class="tags"> -->
+            <div class="tags-container"> 
                 {% assign keywords = entry.keywords | split: ',' %}
                 {% for keyword in keywords %}
                       <span class="tag"># {{ keyword | strip }}</span>
                 {% endfor %}
-<!--             </div> -->
+            </div>
           {% endif %}
         {%- endif %}
         
