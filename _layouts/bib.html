@@ -126,6 +126,9 @@
             {{ periodical | strip }}
           </div>
           <!-- My custom -->
+          {% if entry.venue %}
+              <span class="venue">{{entry.venue}}</span>
+          {% endif %}
           {% if entry.keywords %}
             <div class="tags-container"> 
                 {% assign keywords = entry.keywords | split: ',' %}
