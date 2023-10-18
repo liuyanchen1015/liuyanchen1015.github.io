@@ -13,8 +13,10 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I am a student at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">.
-<!-- , concurrently cross-registered at MIT <img src="assets/img/MIT.png" alt="mit" height="13px"> . --> Currently, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
+I am a **second year master student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">.
+<!-- , concurrently cross-registered at MIT <img src="assets/img/MIT.png" alt="mit" height="13px"> . -->
+
+Currently{: style="color: #990000; opacity: 0.80;" }, I am a research intern in the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 Also, I am a research assistant of 
@@ -30,5 +32,5 @@ I obtained my Bachelor's degree in Computer Science from
 	Center for Information and Language Processing, LMU.-->
 <!-- 	[Center for Information and Language Processing](https://schuetze.cis.lmu.de/), LMU. -->
 
-My research interests lie in **Human-Centered NLP**{: style="color: #990000; opacity: 0.80;" }, particularly: i) `multilingual and dialect-inclusive NLP`; ii) `trustworthy NLP`;  iii) `empowering CSS and linguistic research with LLMs` and iv) `understanding LM's behaviors from linguistic perspectives`.
+My research interests lie in **Human-Centered NLP**, with a particular focus on: i) `multilingual and dialect-inclusive NLP`; ii) `trustworthy NLP`;  iii) `empowering CSS and linguistic research with LLMs` and iv) `understanding LM's behaviors from linguistic lens`.
 
