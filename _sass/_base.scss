@@ -3,6 +3,27 @@
  ******************************************************************************/
 
 // my custom
+.research-list {
+    list-style-type: decimal;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.research-list > li {
+    margin-bottom: 0.5em;
+}
+
+.research-sublist {
+    list-style-type: decimal;
+    padding-left: 1em;
+}
+
+.research-highlight {
+    color: #990000;
+    opacity: 0.80;
+}
+
 .small-break {
   display: block;
   margin-top: 4px; /* Adjust as needed */
