@@ -32,7 +32,7 @@ Previously, I obtained my Bachelor's degree in Computer Science from
 <!-- iii) `understanding LM's behaviors from linguistic lens` and iv) `empowering linguistic and CSS research with LLMs`. -->
 <br><br><br><br><br>
 .research-list {
-    list-style-type: none;
+    list-style-type: decimal;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 1em;
