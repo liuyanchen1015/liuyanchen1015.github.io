@@ -33,7 +33,7 @@ I obtained my Bachelor's degree in Computer Science from
 <!-- iii) `understanding LM's behaviors from linguistic lens` and iv) `empowering linguistic and CSS research with LLMs`. -->
 
 <p>My research interests lie in <span class="research-highlight"><strong>Human-Centered NLP</strong></span>, with a particular focus on:</p>
-<ul class="research-list">
+<ol class="research-list">
     <li>
         LLM for More Research:
         <ol class="research-sublist">
@@ -45,6 +45,6 @@ I obtained my Bachelor's degree in Computer Science from
     <li>Multilingual and Dialect-Inclusive NLP (Linguistic Variations)</li>
     <li>Trustworthy NLP</li>
     <li>LLM-powered Agents & Simulations</li>
-</ul>
+</ol>
 
 
