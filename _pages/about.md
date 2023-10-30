@@ -33,7 +33,6 @@ I obtained my Bachelor's degree in Computer Science from
 <!-- iii) `understanding LM's behaviors from linguistic lens` and iv) `empowering linguistic and CSS research with LLMs`. -->
 
 <p>My research interests lie in <span style="color:990000, opacity: 0.80"><strong>Human-Centered NLP</strong></span>, with a particular focus on:</p>
-
 <ol style="line-height:1">
     <li>LLM for More Research:
         <ol>
