@@ -26,8 +26,8 @@ Also, I serve as a research assistant in the
 Previously, I obtained my Bachelor's degree in Computer Science from 
 	[TUM](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="13px"> , with a minor in Computational Linguistics at 
 	[LMU](https://www.lmu.de/en/) <img src="assets/img/LMU.jpeg" alt="lmu" height="18px"> . During my undergraduate studies, I was fortunate to be supervised by Prof. 
-	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en)
-	at the Center for Information and Language Processing, LMU.
+	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en).
+	<!-- at the Center for Information and Language Processing, LMU. -->
 
 <!-- My research interests lie in **Human-Centered NLP**, with a particular focus on: i) `empowering linguistic and CSS research with LLMs`; ii) `multilingual and linguistic variations`; iii) `trustworthy NLP` and iv) `LLM agents and simulations`. -->
 <!-- iii) `understanding LM's behaviors from linguistic lens` and iv) `empowering linguistic and CSS research with LLMs`. -->
