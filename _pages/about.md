@@ -27,7 +27,7 @@ Previously, I obtained my Bachelor's degree in Computer Science from
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en).
 	<!-- at the Center for Information and Language Processing, LMU. -->
 
-My research interests lie in **Human-Centered NLP**, with a particular focus on: i) `LLM for More Research`, esp. `LLM4CSS` & `LLM4Linguistics`; ii) `Linguistics4LLM`; iii) `Multilingual & Linguistic Variations`; iv) `Trustworthy NLP` and v) `LLM Agents & Simulations`.
+My research interests lie in **Human-Centered NLP**, with a particular focus on: i) `LLM for More Research`, esp. `LLM4CSS` & `LLM4Linguistics`;&nbsp; ii) `Linguistics4LLM`; iii) `Multilingual & Linguistic Variations`; iv) `Trustworthy NLP` and v) `LLM Agents & Simulations`.
 
 <!--
 My research interests lie in <span class="research-highlight"><strong>Human-Centered NLP</strong></span>, with a particular focus on:
