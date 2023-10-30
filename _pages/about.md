@@ -35,9 +35,11 @@ I obtained my Bachelor's degree in Computer Science from
 <!-- My research interests lie in **Human-Centered NLP**, with a particular focus on: i) `empowering linguistic and CSS research with LLMs`; ii) `multilingual and linguistic variations`; iii) `trustworthy NLP` and iv) `LLM agents and simulations`. -->
 <!-- iii) `understanding LM's behaviors from linguistic lens` and iv) `empowering linguistic and CSS research with LLMs`. -->
 
+<div style="line-height:1.5">
+    
 My research interests lie in **Human-Centered NLP**, with a particular focus on:
 
-1. **LLM for More Research:**
+1. LLM for More Research:
    1. <span style="color:red">LLM4CSS</span>: Empowering CSS research with LLMs
    2. <span style="color:red">LLM4Linguistics</span>: Empowering Linguistic Research with LLMs
 
@@ -48,3 +50,5 @@ My research interests lie in **Human-Centered NLP**, with a particular focus on:
 4. Trustworthy NLP
 
 5. LLM-powered Agents & Simulations
+
+</div>
