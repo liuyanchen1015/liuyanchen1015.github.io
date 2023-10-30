@@ -5,9 +5,9 @@
 // my custom
 .research-list {
     list-style-type: decimal;
-    padding-left: 0;
+    padding-left: 1em;
     margin-top: 0;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .research-list > li {
@@ -16,7 +16,7 @@
 
 .research-sublist {
     list-style-type: decimal;
-    padding-left: 1em;
+    padding-left: 2em;
 }
 
 .research-highlight {
