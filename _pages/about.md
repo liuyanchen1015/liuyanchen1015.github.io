@@ -13,9 +13,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I am a **second-year master's student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">.
-
-Currently, I am visiting the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
+I am a **second-year master's student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">. Currently, I am visiting the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , collaborating with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 Also, I serve as a research assistant in the 
@@ -29,8 +27,7 @@ Previously, I obtained my Bachelor's degree in Computer Science from
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en).
 	<!-- at the Center for Information and Language Processing, LMU. -->
 
-My research interests lie in **Human-Centered NLP**, with a particular focus on: i) `LLM4CSS & LLM4Linguistics`; ii) `Linguistics4LLM`; iii) `Multilingual & Linguistic Variations`; iv) `Trustworthy NLP` and v) `LLM Agents & Simulations`.
-<!-- iii) `understanding LM's behaviors from linguistic lens` and iv) `empowering linguistic and CSS research with LLMs`.
+My research interests lie in **Human-Centered NLP**, with a particular focus on: i) `LLM for More Research: LLM4CSS & LLM4Linguistics`; ii) `Linguistics4LLM`; iii) `Multilingual & Linguistic Variations`; iv) `Trustworthy NLP` and v) `LLM Agents & Simulations`.
 
 <!--
 My research interests lie in <span class="research-highlight"><strong>Human-Centered NLP</strong></span>, with a particular focus on:
