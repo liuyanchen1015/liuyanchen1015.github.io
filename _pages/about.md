@@ -36,14 +36,14 @@ I obtained my Bachelor's degree in Computer Science from
 <!-- iii) `understanding LM's behaviors from linguistic lens` and iv) `empowering linguistic and CSS research with LLMs`. -->
 
 <div style="line-height:1.5">
-    
+<br><br><br><br>
 My research interests lie in **Human-Centered NLP**, with a particular focus on:
 
 1. LLM for More Research:
-   1. <span style="color:red">LLM4CSS</span>: Empowering CSS research with LLMs
-   2. <span style="color:red">LLM4Linguistics</span>: Empowering Linguistic Research with LLMs
+   1. <span style="color:#990000">LLM4CSS</span>: Empowering CSS research with LLMs
+   2. <span style="color:#990000">LLM4Linguistics</span>: Empowering Linguistic Research with LLMs
 
-2. <span style="color:red">Linguistics4LLM</span>: Understanding LLMs’ Behaviors from Linguistic Perspectives
+2. <span style="color:#990000">Linguistics4LLM</span>: Understanding LLMs’ Behaviors from Linguistic Perspectives
 
 3. Multilingual and Dialect-Inclusive NLP (Linguistic Variations)
    
