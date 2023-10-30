@@ -15,7 +15,6 @@ social: true  # includes social icons at the bottom of the page
 --- 
 I am a **second-year master's student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">.
 <!-- , concurrently cross-registered at MIT <img src="assets/img/MIT.png" alt="mit" height="13px"> . -->
-
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am visiting the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , working with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
@@ -35,20 +34,18 @@ I obtained my Bachelor's degree in Computer Science from
 <!-- My research interests lie in **Human-Centered NLP**, with a particular focus on: i) `empowering linguistic and CSS research with LLMs`; ii) `multilingual and linguistic variations`; iii) `trustworthy NLP` and iv) `LLM agents and simulations`. -->
 <!-- iii) `understanding LM's behaviors from linguistic lens` and iv) `empowering linguistic and CSS research with LLMs`. -->
 
-<div style="line-height:1.5">
-<br><br><br><br>
-My research interests lie in **Human-Centered NLP**, with a particular focus on:
+<p>My research interests lie in <strong>Human-Centered NLP</strong>, with a particular focus on:</p>
 
-1. LLM for More Research:
-   1. <span style="color:#990000">LLM4CSS</span>: Empowering CSS research with LLMs
-   2. <span style="color:#990000">LLM4Linguistics</span>: Empowering Linguistic Research with LLMs
+<ul style="line-height:1">
+    <li><strong>LLM for More Research:</strong>
+        <ol>
+            <li><span style="color:990000">LLM4CSS</span>: Empowering CSS research with LLMs</li>
+            <li><span style="color:990000">LLM4Linguistics</span>: Empowering Linguistic Research with LLMs</li>
+        </ol>
+    </li>
+    <li><span style="color:red">Linguistics4LLM</span>: Understanding LLMs’ Behaviors from Linguistic Perspectives</li>
+    <li>Multilingual and Dialect-Inclusive NLP (Linguistic Variations)</li>
+    <li>Trustworthy NLP</li>
+    <li>LLM-powered Agents & Simulations</li>
+</ul>
 
-2. <span style="color:#990000">Linguistics4LLM</span>: Understanding LLMs’ Behaviors from Linguistic Perspectives
-
-3. Multilingual and Dialect-Inclusive NLP (Linguistic Variations)
-   
-4. Trustworthy NLP
-
-5. LLM-powered Agents & Simulations
-
-</div>
