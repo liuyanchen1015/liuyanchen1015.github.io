@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 I am a **second-year master's student** at [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">. Currently, I am visiting the [Social and Language Technologies (SALT) lab](https://cs.stanford.edu/~diyiy/group.html), 
 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , collaborating with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
-Also, I serve as a research assistant in the 
+Also, I am a member of the 
 	AI4LIFE Group at 
 	Harvard SEAS, working with Prof. 
 	[Hima Lakkaraju](https://himalakkaraju.github.io/).
