@@ -27,23 +27,8 @@ Previously, I obtained my Bachelor's degree in Computer Science from
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) and [Timo Schick](https://scholar.google.de/citations?user=k8CKy5UAAAAJ&hl=en).
 	<!-- at the Center for Information and Language Processing, LMU. -->
 
-My research interests lie in **Human-Centered NLP**{: style="color: #990000; opacity: 0.80;" }, with a particular focus on: i) `Human-LLM Collaboration for More Research`, esp. `LLM4CSS` and `LLM4Linguistics`; ii) `Linguistics4LLM`; iii) `Multilingual & Linguistic Variations`; iv) `Trustworthy NLP` and v) `LLM Agents & Simulations`.
+<!-- My research interests lie in **Human-Centered NLP**{: style="color: #990000; opacity: 0.80;" }, with a particular focus on: i) `Human-LLM Collaboration for More Research`, esp. `LLM4CSS` and `LLM4Linguistics`; ii) `Linguistics4LLM`; iii) `Multilingual & Linguistic Variations`; iv) `Trustworthy NLP` and v) `LLM Agents & Simulations`. -->
 
-<!--
-My research interests lie in <span class="research-highlight"><strong>Human-Centered NLP</strong></span>, with a particular focus on:
-<ol class="research-list">
-    <li>
-        LLM for More Research:
-        <ol class="research-sublist">
-            <li><span class="research-highlight">LLM4CSS</span>: Empowering CSS research with LLMs</li>
-            <li><span class="research-highlight">LLM4Linguistics</span>: Empowering Linguistic Research with LLMs</li>
-        </ol>
-    </li>
-    <li><span class="research-highlight">Linguistics4LLM</span>: Understanding LLMs’ Behaviors from Linguistic Perspectives</li>
-    <li>Multilingual and Dialect-Inclusive NLP (Linguistic Variations)</li>
-    <li>Trustworthy NLP</li>
-    <li>LLM-powered Agents & Simulations</li>
-</ol>
--->
+My research interests lie in **Human-Centered NLP**{: style="color: #990000; opacity: 0.80;" }, with a particular focus on: i) `Human-LLM Interaction`, esp. `alignment, oversight and collaboration`; ii) `Trustworthy NLP`; iii) `Multilingual & Linguistic Variations` and iv) `Understanding, Interpreting, and Enhancing LLM’s Behaviors`.
 
 
