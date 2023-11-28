@@ -29,6 +29,6 @@ Previously, I obtained my Bachelor's degree in Computer Science from
 
 <!-- My research interests lie in **Human-Centered NLP**{: style="color: #990000; opacity: 0.80;" }, with a particular focus on: i) `Human-LLM Collaboration for More Research`, esp. `LLM4CSS` and `LLM4Linguistics`; ii) `Linguistics4LLM`; iii) `Multilingual & Linguistic Variations`; iv) `Trustworthy NLP` and v) `LLM Agents & Simulations`. -->
 
-My research interests lie in **Human-Centered NLP**{: style="color: #990000; opacity: 0.80;" }, with a particular focus on: i) `Learning from Human Language`; ii) `Learning from Human Interaction` and iii) `Ensuring Reliable Human Impacts`.
+My research interests lie in **Human-Centered NLP**{: style="color: #990000; opacity: 0.80;" }, with a particular focus on: i) `Learning from Human Language`; ii) `Learning from Human Interaction` and iii) `Ensuring Reliable Human Impact`.
 
 
