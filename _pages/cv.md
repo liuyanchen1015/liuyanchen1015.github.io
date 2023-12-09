@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /YanchenLiu_CV.pdf
+permalink: /CV.pdf
 title: cv
 nav: true
 nav_order: 4
