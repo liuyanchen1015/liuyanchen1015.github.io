@@ -40,12 +40,6 @@ layout: default
             {{ content }}
           </div>
 
-          {% if page.news -%}
-          <!-- News -->
-          <br>
-          {%- include news.html %}
-          {%- endif %}
-
           <div style="margin-top: -100px;">
             <p>
                   My journey has deepened my understanding that in the interplay with advanced technologies, humans should always remain the central focus. This conviction underscores my commitment to exploring how large language models (LLMs) can better learn from human language and human interaction, thereby contributing to positive human impact:
@@ -56,8 +50,13 @@ layout: default
                   </ol>  
             </p>
           </div>    
-              
-           
+
+          {% if page.news -%}
+          <!-- News -->
+          <br>
+          {%- include news.html %}
+          {%- endif %}
+                         
 <!--           <div class="logo">
           
            <p> <center>
