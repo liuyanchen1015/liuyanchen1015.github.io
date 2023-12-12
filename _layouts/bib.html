@@ -133,14 +133,14 @@
           {% if entry.award %}
               <span class="award"><i class="fas fa-award"></i> {{entry.award}}</span>
           {% endif %}
-          {% if entry.keywords %}
+          <!-- {% if entry.keywords %}
             <span class="tags-container"> 
                 {% assign keywords = entry.keywords | split: ',' %}
                 {% for keyword in keywords %}
                       <span class="tag"># {{ keyword | strip }}</span>
                 {% endfor %}
             </span>
-          {% endif %}
+          {% endif %} -->
         {%- endif %}
         
           <!-- Links/Buttons -->
