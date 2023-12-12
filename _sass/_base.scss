@@ -107,6 +107,30 @@
     border-color: #EEEEEF; /* Maintains the border color when hovered, remove if you want the border color to change */
 }
 
+.research_interest {
+    display: inline-block;
+    /* background-color: #13354C; /* Background color */
+    background-color: var(--global-theme-color);
+    padding: 2px 6px; /* Space around the text */
+    margin: 2px; /* Space around the border */
+    border-radius: 14px; /* Rounded border edges */
+    font-size: 14px; /* Font size */
+    border: 0.5px solid #EEEEEF; /* Gray border */
+    color: #ffffff; /* Text color */
+    text-decoration: none; /* Remove underline for links */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
+    font-weight: bold; /* Bold font */
+}
+
+.research_interest:hover {
+    /* background-color: #f8f3dd; /* Background color when hovered */
+    background-color: #ffffff;
+    /* color: #84A59D; /* Text color when hovered */
+    color: var(--global-theme-color);
+    cursor: pointer; /* Cursor appearance on hover */
+    border-color: #EEEEEF; /* Maintains the border color when hovered, remove if you want the border color to change */
+}
+
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
