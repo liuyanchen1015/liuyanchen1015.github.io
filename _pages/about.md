@@ -30,6 +30,7 @@ Previously, I obtained my Bachelor's degree in Computer Science from
 	[LMU](https://www.lmu.de/en/) <img src="assets/img/LMU.jpeg" alt="lmu" height="18px">. During my undergraduate studies, I was fortunate to be supervised by Prof. 
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) and [Timo Schick](https://scholar.google.de/citations?user=k8CKy5UAAAAJ&hl=en)
 	at the Center for Information and Language Processing, LMU.
+
 <div align="center">
 **„Der Mensch denkt, Gott lenkt.“ -- 谋事在人，成事在天。**
 </div>
