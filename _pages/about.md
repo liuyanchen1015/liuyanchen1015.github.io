@@ -32,11 +32,13 @@ Previously, I obtained my Bachelor's degree in Computer Science from
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) and [Timo Schick](https://scholar.google.de/citations?user=k8CKy5UAAAAJ&hl=en)
 	at the Center for Information and Language Processing, LMU.
 
+My current research interests mainly lie in `AI safety`. Additionally, I have worked on `parameter-efficient adaptation/composition` and `retrieval-augmented LLMs`.
+
+<!-- 
 <div align="center">
 <!-- <strong>„Der Mensch denkt, Gott lenkt.“ --- 谋事在人，成事在天。</strong> -->
 	<strong>„Der Mensch denkt, Gott lenkt.“</strong>
 </div>
-
-<!-- My research interests lie in **Human-Centered NLP**{: style="color: #990000; opacity: 0.80;" }, with a particular focus on: i) `Learning from Human Language`; ii) `Learning from Human Interaction` and for iii) `Ensuring Reliable Human Impact`. -->
+-->
 
 
