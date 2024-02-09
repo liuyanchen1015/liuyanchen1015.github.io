@@ -32,13 +32,13 @@ Previously, I obtained my Bachelor's degree in Computer Science from
 	[Hinrich Schütze](https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en) and [Timo Schick](https://scholar.google.de/citations?user=k8CKy5UAAAAJ&hl=en)
 	at the Center for Information and Language Processing, LMU.
 
-My current research interests mainly lie in `AI safety`. Additionally, I have worked on `parameter-efficient adaptation/composition` and `retrieval-augmented LLMs`.
+My current research interests mainly lie in `AI safety`<a href="https://arxiv.org/abs/2311.09630">[1]</a><a href="https://arxiv.org/abs/2310.14607">[2]</a>. Additionally, I have worked on `parameter-efficient adaptation/composition`<a href="https://arxiv.org/abs/2305.13406">[3]</a><a href="https://arxiv.org/abs/2311.00915">[4]</a><a href="https://arxiv.org/abs/2302.14413">[5]</a>  and `retrieval-augmented LLMs`<a href="https://arxiv.org/abs/2202.06133">[6]</a>.
 
-<!-- 
-<div align="center">
+
+
+<!-- <div align="center">
 <!-- <strong>„Der Mensch denkt, Gott lenkt.“ --- 谋事在人，成事在天。</strong> -->
 	<strong>„Der Mensch denkt, Gott lenkt.“</strong>
-</div>
--->
+</div> -->
 
 
