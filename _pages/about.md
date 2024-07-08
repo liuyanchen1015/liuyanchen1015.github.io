@@ -13,7 +13,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I recently received my master's degree from [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">.
+I recently obtained my master's degree from [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">.
 
 **Currently**{: style="color: #990000; opacity: 0.80;" }, I am a member of the 
 	AI4LIFE Group at 
