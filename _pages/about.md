@@ -19,7 +19,7 @@ I recently obtained my Master's degree from [Harvard University](https://www.har
 	AI4LIFE Group at 
 	Harvard SEAS, working with Prof. 
 	[Hima Lakkaraju](https://himalakkaraju.github.io/).
-I have been visiting the 
+Also, I have been visiting the 
 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , collaborating with Prof.
 	[Diyi Yang](https://cs.stanford.edu/~diyiy/index.html) for one year.
 
