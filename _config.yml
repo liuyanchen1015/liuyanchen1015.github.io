@@ -6,7 +6,7 @@ title: Yanchen Liu # the website title (if blank, full name will be used instead
 first_name: Yanchen
 middle_name: 
 last_name: Liu
-email: yanchenliu@fas.harvard.edu
+email: yanchenliu@g.harvard.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Yanchen Liu Homepage. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
