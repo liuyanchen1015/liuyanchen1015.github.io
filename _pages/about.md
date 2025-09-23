@@ -13,7 +13,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
-I am an incoming PhD student at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="20px">.
+I am 1st year PhD student at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="20px">.
 
 Previously, I obtained my Master's degree from [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">, where I was a member of the 
 	AI4LIFE Group at 
