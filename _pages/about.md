@@ -14,11 +14,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
 
-I am 1st year PhD student at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="13px">.
+I am a 1st-year PhD student at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="13px">.
 
 Previously, I obtained my Master's degree from [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">, where I was a member of the 
-	AI4LIFE Group at 
-	Harvard SEAS, working with Prof. 
+	AI4LIFE Group 
+	<!-- at Harvard SEAS -->
+	, working with Prof. 
 	[Hima Lakkaraju](https://himalakkaraju.github.io/).
 Also, I had the chance to visit the 
 	[Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , collaborating with Prof.
