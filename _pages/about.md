@@ -7,14 +7,14 @@ profile:
   align: left
   image: me.png
   image_circular: false # crops the image to make it circular
-  address: <p align="left"><font size="2">Cambridge, MA, USA 02139<br>Schwarzman College of Computing, MIT</font></p>
+  address: <p align="left"><font size="2">Cambridge, MA, USA 02139<br>IDSS, Schwarzman College of Computing, MIT</font></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
 
-I am a 1st year PhD student at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="13px">.
+Hi all! I am a 1st year PhD student at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="14px">.
 
 Previously, I obtained my Master's degree from [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">, where I was a member of the 
 	AI4LIFE Group, working with Prof. 
