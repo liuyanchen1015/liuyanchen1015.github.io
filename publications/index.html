@@ -1,57 +1,744 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>publications | Yanchen Liu</title> <meta name="author" content="Yanchen Liu"/> <meta name="description" content="Yanchen Liu Homepage. Based on [*folio](https://github.com/bogoli/-folio) design. "/> <meta name="keywords" content="刘延晨, Yanchen Liu, yanchen Liu, Yanchen liu, yanchen liu, Yanchen, 慕尼黑工业大学，TUM, Technical University of Munich, Technische Universität München, 慕尼黑大学, LMU, Ludwig Maximilian University of Munich, 清华大学, 清华, THU, Tsinghua University, 麻省理工学院, 麻省理工, MIT, Massachusetts Institute of Technology, 哈佛大学, Harvard, Harvard University, 斯坦福大学, Stanford, Stanford University, 洛阳，北京, 慕尼黑, 波士顿, 剑桥, Luoyang, Peking, Munich, Boston, Cambridge"/> <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"/> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous"> <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light"/> <link rel="shortcut icon" href="/assets/img/ico.ico"/> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="canonical" href="https://liuyanchen1015.github.io/publications/"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark"/> <script src="/assets/js/theme.js"></script> <script src="/assets/js/dark_mode.js"></script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/">Yanchen Liu</a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about</a> </li> <li class="nav-item active"> <a class="nav-link" href="/publications/">publications<span class="sr-only">(current)</span></a> </li> <li class="nav-item "> <a class="nav-link" href="/YanchenLiu_CV.pdf">cv</a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fas fa-moon"></i> <i class="fas fa-sun"></i> </button> </li> </ul> </div> </div> </nav> </header> <div class="container mt-5"> <div class="post"> <header class="post-header"> <h1 class="post-title">publications</h1> <p class="post-description"></p> </header> <article> <div class="publications"> <h2 class="year">2024</h2> <ol class="bibliography"><li> <div class="row"> <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/privacy_lens.png"></div> <div id="Shao2024PrivacyLens" class="col-sm-8"> <div class="title">PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in Action</div> <div class="author"> Yijia Shao, Tianshi Li, Weiyan Shi, <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, and <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a> </div> <div class="periodical"> <em>In Proceedings of the 38th Annual Conference on Neural Information Processing Systems</em> </div> <div class="small-break"></div> <span class="venue">NeurIPS 2024</span> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2409.00138" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="abstract hidden"> <p>As language models (LMs) are widely utilized in personalized communication scenarios (e.g., sending emails, writing social media posts) and endowed with a certain level of agency, ensuring they act in accordance with the contextual privacy norms becomes increasingly critical. However, quantifying the privacy norm awareness of LMs and the emerging privacy risk in LM-mediated communication is challenging due to (1) the contextual and long-tailed nature of privacy-sensitive cases, and (2) the lack of evaluation approaches that capture realistic application scenarios. To address these challenges, we propose PrivacyLens, a novel framework designed to extend privacy-sensitive seeds into expressive vignettes and further into agent trajectories, enabling multi-level evaluation of privacy leakage in LM agents’ actions. We instantiate PrivacyLens with a collection of privacy norms grounded in privacy literature and crowdsourced seeds. Using this dataset, we reveal a discrepancy between LM performance in answering probing questions and their actual behavior when executing user instructions in an agent setup. State-of-the-art LMs, like GPT-4 and Llama-3-70B, leak sensitive information in 25.68% and 38.69% of cases, even when prompted with privacy-enhancing instructions. We also demonstrate the dynamic nature of PrivacyLens by extending each seed into multiple trajectories to red-team LM privacy leakage risk. Dataset and code are available at https://github.com/SALT-NLP/PrivacyLens.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Shao2024PrivacyLens</span><span class="p">,</span>
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>publications | Yanchen Liu</title>
+    <meta name="author" content="Yanchen  Liu" />
+    <meta name="description" content="Yanchen Liu Homepage. Based on [*folio](https://github.com/bogoli/-folio) design.
+" />
+    <meta name="keywords" content="刘延晨, Yanchen Liu, yanchen Liu, Yanchen liu, yanchen liu, Yanchen, 慕尼黑工业大学，TUM, Technical University of Munich, Technische Universität München, 慕尼黑大学, LMU, Ludwig Maximilian University of Munich, 清华大学, 清华, THU, Tsinghua University, 麻省理工学院, 麻省理工, MIT, Massachusetts Institute of Technology, 哈佛大学, Harvard, Harvard University, 斯坦福大学, Stanford, Stanford University, 洛阳，北京, 慕尼黑, 波士顿, 剑桥, Luoyang, Peking, Munich, Boston, Cambridge" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/ico.ico"/>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://liuyanchen1015.github.io/publications/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/">Yanchen Liu</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/publications/">publications<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/YanchenLiu_CV.pdf">cv</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">publications</h1>
+            <p class="post-description"></p>
+          </header>
+
+          <article>
+            <!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2024</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/privacy_lens.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="Shao2024PrivacyLens" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in Action</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Yijia Shao, Tianshi Li, Weiyan Shi, <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, and <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a>
+</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <div class="periodical">
+            <em>In Proceedings of the 38th Annual Conference on Neural Information Processing Systems</em>
+          </div>
+          <!-- My custom -->
+          <div class="small-break"></div>
+          
+              <span class="venue">NeurIPS 2024</span>
+          
+          
+          <!-- 
+            <span class="tags-container"> 
+                
+                
+                      <span class="tag"># LLM Agent</span>
+                
+                      <span class="tag"># Safety</span>
+                
+                      <span class="tag"># Privacy</span>
+                
+            </span>
+           -->
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2409.00138" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>As language models (LMs) are widely utilized in personalized communication scenarios (e.g., sending emails, writing social media posts) and endowed with a certain level of agency, ensuring they act in accordance with the contextual privacy norms becomes increasingly critical. However, quantifying the privacy norm awareness of LMs and the emerging privacy risk in LM-mediated communication is challenging due to (1) the contextual and long-tailed nature of privacy-sensitive cases, and (2) the lack of evaluation approaches that capture realistic application scenarios. To address these challenges, we propose PrivacyLens, a novel framework designed to extend privacy-sensitive seeds into expressive vignettes and further into agent trajectories, enabling multi-level evaluation of privacy leakage in LM agents’ actions. We instantiate PrivacyLens with a collection of privacy norms grounded in privacy literature and crowdsourced seeds. Using this dataset, we reveal a discrepancy between LM performance in answering probing questions and their actual behavior when executing user instructions in an agent setup. State-of-the-art LMs, like GPT-4 and Llama-3-70B, leak sensitive information in 25.68% and 38.69% of cases, even when prompted with privacy-enhancing instructions. We also demonstrate the dynamic nature of PrivacyLens by extending each seed into multiple trajectories to red-team LM privacy leakage risk. Dataset and code are available at https://github.com/SALT-NLP/PrivacyLens.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Shao2024PrivacyLens</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in Action}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Shao, Yijia and Li, Tianshi and Shi, Weiyan and Liu, Yanchen and Yang, Diyi}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Under Review}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 38th Annual Conference on Neural Information Processing Systems}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li></ol> <h2 class="year">2023</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/suscep.png"></div> <div id="Liu2023Suscep" class="col-sm-8"> <div class="title">Decoding Susceptibility: Modeling Misbelief to Misinformation Through a Computational Approach</div> <div class="author"> <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, Mingyu Derek Ma, Wenna Qin, Azure Zhou, Jiaao Chen, Weiyan Shi, <a href="https://web.cs.ucla.edu/~weiwang/" target="_blank" rel="noopener noreferrer">Wei Wang</a>, and <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a> </div> <div class="periodical"> <em>In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em> </div> <div class="small-break"></div> <span class="venue">EMNLP 2024</span> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2311.09630" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://liuyanchen1015.github.io/blog/2023/suscep/" class="btn btn-sm z-depth-0" role="button">HTML</a> </div> <div class="abstract hidden"> <p>Susceptibility to misinformation describes the degree of belief in unverifiable claims, a latent aspect of individuals’ mental processes that is not observable. Existing susceptibility studies heavily rely on self-reported beliefs, which can be subject to bias, expensive to collect, and challenging to scale for downstream applications. To address these limitations, in this work, we propose a computational approach to model users’ latent susceptibility levels. As shown in previous research, susceptibility is influenced by various factors (e.g., demographic factors, political ideology), and directly influences people’s reposting behavior on social media. To represent the underlying mental process, our susceptibility modeling incorporates these factors as inputs, guided by the supervision of people’s sharing behavior. Using COVID-19 as a testbed domain, our experiments demonstrate a significant alignment between the susceptibility scores estimated by our computational modeling and human judgments, confirming the effectiveness of this latent modeling approach. Furthermore, we apply our model to annotate susceptibility scores on a large-scale dataset and analyze the relationships between susceptibility with various factors. Our analysis reveals that political leanings and psychological factors exhibit varying degrees of association with susceptibility to COVID-19 misinformation.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2023Suscep</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2023</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/suscep.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="Liu2023Suscep" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Decoding Susceptibility: Modeling Misbelief to Misinformation Through a Computational Approach</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, Mingyu Derek Ma, Wenna Qin, Azure Zhou, Jiaao Chen, Weiyan Shi, <a href="https://web.cs.ucla.edu/~weiwang/" target="_blank" rel="noopener noreferrer">Wei Wang</a>, and <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a>
+</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <div class="periodical">
+            <em>In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em>
+          </div>
+          <!-- My custom -->
+          <div class="small-break"></div>
+          
+              <span class="venue">EMNLP 2024</span>
+          
+          
+          <!-- 
+            <span class="tags-container"> 
+                
+                
+                      <span class="tag"># Social Computing</span>
+                
+                      <span class="tag"># CSS</span>
+                
+            </span>
+           -->
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2311.09630" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://liuyanchen1015.github.io/blog/2023/suscep/" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Susceptibility to misinformation describes the degree of belief in unverifiable claims, a latent aspect of individuals’ mental processes that is not observable. Existing susceptibility studies heavily rely on self-reported beliefs, which can be subject to bias, expensive to collect, and challenging to scale for downstream applications. To address these limitations, in this work, we propose a computational approach to model users’ latent susceptibility levels. As shown in previous research, susceptibility is influenced by various factors (e.g., demographic factors, political ideology), and directly influences people’s reposting behavior on social media. To represent the underlying mental process, our susceptibility modeling incorporates these factors as inputs, guided by the supervision of people’s sharing behavior. Using COVID-19 as a testbed domain, our experiments demonstrate a significant alignment between the susceptibility scores estimated by our computational modeling and human judgments, confirming the effectiveness of this latent modeling approach. Furthermore, we apply our model to annotate susceptibility scores on a large-scale dataset and analyze the relationships between susceptibility with various factors. Our analysis reveals that political leanings and psychological factors exhibit varying degrees of association with susceptibility to COVID-19 misinformation.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2023Suscep</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Decoding Susceptibility: Modeling Misbelief to Misinformation Through a Computational Approach}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Yanchen and Ma, Mingyu Derek and Qin, Wenna and Zhou, Azure and Chen, Jiaao and Shi, Weiyan and Wang, Wei and Yang, Diyi}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{EMNLP 2024}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/tabular_biases.png"></div> <div id="Liu2023TabularBiases" class="col-sm-8"> <div class="title">Confronting LLMs with Traditional ML: Rethinking the Fairness of Large Language Models in Tabular Classification</div> <div class="author"> <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, Srishti Gautam, <a href="https://jiaqima.github.io/" target="_blank" rel="noopener noreferrer">Jiaqi Ma</a>, and <a href="https://himalakkaraju.github.io/" target="_blank" rel="noopener noreferrer">Himabindu Lakkaraju</a> </div> <div class="periodical"> <em>In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics</em> </div> <div class="small-break"></div> <span class="venue">NAACL 2024</span> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2310.14607" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="abstract hidden"> <p>Recent literature has suggested the potential of using large language models (LLMs) to make predictions for tabular tasks. However, LLMs have been shown to exhibit harmful social biases that reflect the stereotypes and inequalities present in the society. To this end, as well as the widespread use of tabular data in many high-stake applications, it is imperative to explore the following questions: what sources of information do LLMs draw upon when making predictions for tabular tasks; whether and to what extent are LLM predictions for tabular tasks influenced by social biases and stereotypes; and what are the consequential implications for fairness? Through a series of experiments, we delve into these questions and show that LLMs tend to inherit social biases from their training data which significantly impact their fairness in tabular prediction tasks. Furthermore, our investigations show that in the context of bias mitigation, though in-context learning and fine-tuning have a moderate effect, the fairness metric gap between different subgroups is still larger than that in traditional machine learning models, such as Random Forest and shallow Neural Networks. This observation emphasizes that the social biases are inherent within the LLMs themselves and inherited from their pre-training corpus, not only from the downstream task datasets. Besides, we demonstrate that label-flipping of in-context examples can significantly reduce biases, further highlighting the presence of inherent bias within LLMs.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2023TabularBiases</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/tabular_biases.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="Liu2023TabularBiases" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Confronting LLMs with Traditional ML: Rethinking the Fairness of Large Language Models in Tabular Classification</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, Srishti Gautam, <a href="https://jiaqima.github.io/" target="_blank" rel="noopener noreferrer">Jiaqi Ma</a>, and <a href="https://himalakkaraju.github.io/" target="_blank" rel="noopener noreferrer">Himabindu Lakkaraju</a>
+</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <div class="periodical">
+            <em>In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics</em>
+          </div>
+          <!-- My custom -->
+          <div class="small-break"></div>
+          
+              <span class="venue">NAACL 2024</span>
+          
+          
+          <!-- 
+            <span class="tags-container"> 
+                
+                
+                      <span class="tag"># Fairness</span>
+                
+                      <span class="tag"># Tabular</span>
+                
+            </span>
+           -->
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2310.14607" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Recent literature has suggested the potential of using large language models (LLMs) to make predictions for tabular tasks. However, LLMs have been shown to exhibit harmful social biases that reflect the stereotypes and inequalities present in the society. To this end, as well as the widespread use of tabular data in many high-stake applications, it is imperative to explore the following questions: what sources of information do LLMs draw upon when making predictions for tabular tasks; whether and to what extent are LLM predictions for tabular tasks influenced by social biases and stereotypes; and what are the consequential implications for fairness? Through a series of experiments, we delve into these questions and show that LLMs tend to inherit social biases from their training data which significantly impact their fairness in tabular prediction tasks. Furthermore, our investigations show that in the context of bias mitigation, though in-context learning and fine-tuning have a moderate effect, the fairness metric gap between different subgroups is still larger than that in traditional machine learning models, such as Random Forest and shallow Neural Networks. This observation emphasizes that the social biases are inherent within the LLMs themselves and inherited from their pre-training corpus, not only from the downstream task datasets. Besides, we demonstrate that label-flipping of in-context examples can significantly reduce biases, further highlighting the presence of inherent bias within LLMs.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2023TabularBiases</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Confronting LLMs with Traditional ML: Rethinking the Fairness of Large Language Models in Tabular Classification}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Yanchen and Gautam, Srishti and Ma, Jiaqi and Lakkaraju, Himabindu}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{EMNLP 2023}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/DADA.png"></div> <div id="Liu2023DADA" class="col-sm-8"> <div class="title">DADA: Dialect Adaptation via Dynamic Aggregation of Linguistic Rules</div> <div class="author"> <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, <a href="https://williamheld.com/" target="_blank" rel="noopener noreferrer">William Held</a>, and <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a> </div> <div class="periodical"> <em>In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</em> </div> <div class="small-break"></div> <span class="venue">EMNLP 2023</span> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2305.13406" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://liuyanchen1015.github.io/DADA/" class="btn btn-sm z-depth-0" role="button">HTML</a> </div> <div class="abstract hidden"> <p>Existing large language models (LLMs) that mainly focus on Standard American English (SAE) often lead to significantly worse performance when being applied to other English dialects. While existing mitigations tackle discrepancies for individual target dialects, they assume access to high-accuracy dialect identification systems. The boundaries between dialects are inherently flexible, making it difficult to categorize language into discrete predefined categories. In this paper, we propose DADA (Dialect Adaptation via Dynamic Aggregation), a modular approach to imbue SAE-trained models with multi-dialectal robustness by composing adapters which handle specific linguistic features. The compositional architecture of DADA allows for both targeted adaptation to specific dialect variants and simultaneous adaptation to various dialects. We show that DADA is effective for both single task and instruction finetuned language models, offering an extensible and interpretable framework for adapting existing LLMs to different English dialects.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2023DADA</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/DADA.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="Liu2023DADA" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">DADA: Dialect Adaptation via Dynamic Aggregation of Linguistic Rules</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, <a href="https://williamheld.com/" target="_blank" rel="noopener noreferrer">William Held</a>, and <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a>
+</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <div class="periodical">
+            <em>In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</em>
+          </div>
+          <!-- My custom -->
+          <div class="small-break"></div>
+          
+              <span class="venue">EMNLP 2023</span>
+          
+          
+          <!-- 
+            <span class="tags-container"> 
+                
+                
+                      <span class="tag"># Dialect-Inclusive</span>
+                
+                      <span class="tag"># Robustness</span>
+                
+                      <span class="tag"># Fairness</span>
+                
+                      <span class="tag"># Linguistics</span>
+                
+            </span>
+           -->
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2305.13406" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://liuyanchen1015.github.io/DADA/" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Existing large language models (LLMs) that mainly focus on Standard American English (SAE) often lead to significantly worse performance when being applied to other English dialects. While existing mitigations tackle discrepancies for individual target dialects, they assume access to high-accuracy dialect identification systems. The boundaries between dialects are inherently flexible, making it difficult to categorize language into discrete predefined categories. In this paper, we propose DADA (Dialect Adaptation via Dynamic Aggregation), a modular approach to imbue SAE-trained models with multi-dialectal robustness by composing adapters which handle specific linguistic features. The compositional architecture of DADA allows for both targeted adaptation to specific dialect variants and simultaneous adaptation to various dialects. We show that DADA is effective for both single task and instruction finetuned language models, offering an extensible and interpretable framework for adapting existing LLMs to different English dialects.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2023DADA</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{DADA: Dialect Adaptation via Dynamic Aggregation of Linguistic Rules}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Yanchen and Held, William and Yang, Diyi}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">html</span> <span class="p">=</span> <span class="s">{https://liuyanchen1015.github.io/DADA/}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{EMNLP 2023}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/hyperlora.png"></div> <div id="Xiao2023HyperLoRA" class="col-sm-8"> <div class="title">Task-Agnostic Low-Rank Adapters for Unseen English Dialects</div> <div class="author"> Zedian Xiao, <a href="https://williamheld.com/" target="_blank" rel="noopener noreferrer">William Held</a>, <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, and <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a> </div> <div class="periodical"> <em>In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</em> </div> <div class="small-break"></div> <span class="venue">EMNLP 2023</span> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2311.00915" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="abstract hidden"> <p>Large Language Models (LLMs) are trained on corpora disproportionally weighted in favor of Standard American English. As a result, speakers of other dialects experience significantly more failures when interacting with these technologies. In practice, these speakers often accommodate their speech to be better understood. Our work shares the belief that language technologies should be designed to accommodate the diversity in English dialects and not the other way around. However, prior work on dialect struggle with generalizing to evolving and emerging dialects in a scalable manner. To fill this gap, our method, HyperLoRA, leverages expert linguistic knowledge to enable resource-efficient adaptation via hypernetworks. By disentangling dialect-specific and cross-dialectal information, HyperLoRA improves generalization to unseen dialects in a task-agnostic fashion. Not only is HyperLoRA more scalable in the number of parameters, but it also achieves the best or most competitive performance across 5 dialects in a zero-shot setting. In this way, our approach facilitates access to language technology for billions of English dialect speakers who are traditionally underrepresented.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Xiao2023HyperLoRA</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/hyperlora.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="Xiao2023HyperLoRA" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Task-Agnostic Low-Rank Adapters for Unseen English Dialects</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Zedian Xiao, <a href="https://williamheld.com/" target="_blank" rel="noopener noreferrer">William Held</a>, <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, and <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a>
+</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <div class="periodical">
+            <em>In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</em>
+          </div>
+          <!-- My custom -->
+          <div class="small-break"></div>
+          
+              <span class="venue">EMNLP 2023</span>
+          
+          
+          <!-- 
+            <span class="tags-container"> 
+                
+                
+                      <span class="tag"># Dialect-Inclusive</span>
+                
+                      <span class="tag"># Robustness</span>
+                
+                      <span class="tag"># Fairness</span>
+                
+                      <span class="tag"># Data-Efficiency</span>
+                
+            </span>
+           -->
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2311.00915" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large Language Models (LLMs) are trained on corpora disproportionally weighted in favor of Standard American English. As a result, speakers of other dialects experience significantly more failures when interacting with these technologies. In practice, these speakers often accommodate their speech to be better understood. Our work shares the belief that language technologies should be designed to accommodate the diversity in English dialects and not the other way around. However, prior work on dialect struggle with generalizing to evolving and emerging dialects in a scalable manner. To fill this gap, our method, HyperLoRA, leverages expert linguistic knowledge to enable resource-efficient adaptation via hypernetworks. By disentangling dialect-specific and cross-dialectal information, HyperLoRA improves generalization to unseen dialects in a task-agnostic fashion. Not only is HyperLoRA more scalable in the number of parameters, but it also achieves the best or most competitive performance across 5 dialects in a zero-shot setting. In this way, our approach facilitates access to language technology for billions of English dialect speakers who are traditionally underrepresented.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Xiao2023HyperLoRA</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Task-Agnostic Low-Rank Adapters for Unseen English Dialects}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Xiao, Zedian and Held, William and Liu, Yanchen and Yang, Diyi}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{EMNLP 2023}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/middag.png"></div> <div id="Ma2023MIDDAG" class="col-sm-8"> <div class="title">MIDDAG: Where Does Our News Go? Investigating Information Diffusion via Community-Level Information Pathways</div> <div class="author"> Mingyu Derek Ma, Alexander K. Taylor, Nuan Wen, <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, Po-Nien Kung, Wenna Qin, Shicheng Wen, Azure Zhou, <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a>, Xuezhe Ma, <a href="https://vnpeng.net/" target="_blank" rel="noopener noreferrer">Nanyun Peng</a>, and <a href="https://web.cs.ucla.edu/~weiwang/" target="_blank" rel="noopener noreferrer">Wei Wang</a> </div> <div class="periodical"> <em>In Proceedings of the 38th Annual AAAI Conference on Artificial Intelligence</em> </div> <div class="small-break"></div> <span class="venue">AAAI 2024 Demonstrations</span> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2310.02529" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://info-pathways.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Demo</a> </div> <div class="abstract hidden"> <p>We present MIDDAG, an intuitive, interactive system that visualizes the information propagation paths on social media triggered by COVID-19-related news articles accompanied by comprehensive insights including user/community susceptibility level, as well as events and popular opinions raised by the crowd while propagating the information. Besides discovering information flow patterns among users, we construct communities among users and develop the propagation forecasting capability, enabling tracing and understanding of how information is disseminated at a higher level.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Ma2023MIDDAG</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/middag.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="Ma2023MIDDAG" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">MIDDAG: Where Does Our News Go? Investigating Information Diffusion via Community-Level Information Pathways</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Mingyu Derek Ma, Alexander K. Taylor, Nuan Wen, <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, Po-Nien Kung, Wenna Qin, Shicheng Wen, Azure Zhou, <a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener noreferrer">Diyi Yang</a>, Xuezhe Ma, <a href="https://vnpeng.net/" target="_blank" rel="noopener noreferrer">Nanyun Peng</a>, and <a href="https://web.cs.ucla.edu/~weiwang/" target="_blank" rel="noopener noreferrer">Wei Wang</a>
+</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <div class="periodical">
+            <em>In Proceedings of the 38th Annual AAAI Conference on Artificial Intelligence</em>
+          </div>
+          <!-- My custom -->
+          <div class="small-break"></div>
+          
+              <span class="venue">AAAI 2024 Demonstrations</span>
+          
+          
+          <!-- 
+            <span class="tags-container"> 
+                
+                
+                      <span class="tag"># CSS</span>
+                
+            </span>
+           -->
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2310.02529" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://info-pathways.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Demo</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We present MIDDAG, an intuitive, interactive system that visualizes the information propagation paths on social media triggered by COVID-19-related news articles accompanied by comprehensive insights including user/community susceptibility level, as well as events and popular opinions raised by the crowd while propagating the information. Besides discovering information flow patterns among users, we construct communities among users and develop the propagation forecasting capability, enabling tracing and understanding of how information is disseminated at a higher level.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Ma2023MIDDAG</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{MIDDAG: Where Does Our News Go? Investigating Information Diffusion via Community-Level Information Pathways}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Ma, Mingyu Derek and Taylor, Alexander K. and Wen, Nuan and Liu, Yanchen and Kung, Po-Nien and Qin, Wenna and Wen, Shicheng and Zhou, Azure and Yang, Diyi and Ma, Xuezhe and Peng, Nanyun and Wang, Wei}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{AAAI 2024 Demonstrations}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 38th Annual AAAI Conference on Artificial Intelligence}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">demo</span> <span class="p">=</span> <span class="s">{https://info-pathways.github.io/}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> <h2 class="year">2022</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/smoa.png"></div> <div id="Liu2022sMixtureAdapters" class="col-sm-8"> <div class="title">SMoA: Sparse Mixture of Adapters to Mitigate Multiple Dataset Biases</div> <div class="author"> <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, Jing Yan, Yan Chen, Jing Liu, and Hua Wu</div> <div class="periodical"> <em>In ACL Workshop on Trustworthy Natural Language Processing, 2022</em> </div> <div class="small-break"></div> <span class="venue">ACLW 2023</span> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2302.14413" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="abstract hidden"> <p>Recent studies reveal that various biases exist in different NLP tasks, and over-reliance on biases results in models’ poor generalization ability and low adversarial robustness. To mitigate datasets biases, previous works propose lots of debiasing techniques to tackle specific biases, which perform well on respective adversarial sets but fail to mitigate other biases. In this paper, we propose a new debiasing method Sparse Mixture-of-Adapters (SMoA), which can mitigate multiple dataset biases effectively and efficiently. Experiments on Natural Language Inference and Paraphrase Identification tasks demonstrate that SMoA outperforms full-finetuning, adapter tuning baselines, and prior strong debiasing methods. Further analysis indicates the interpretability of SMoA that sub-adapter can capture specific pattern from the training data and specialize to handle specific bias.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2022sMixtureAdapters</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 class="year">2022</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/smoa.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="Liu2022sMixtureAdapters" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">SMoA: Sparse Mixture of Adapters to Mitigate Multiple Dataset Biases</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, Jing Yan, Yan Chen, Jing Liu, and Hua Wu</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <div class="periodical">
+            <em>In ACL Workshop on Trustworthy Natural Language Processing, 2022</em>
+          </div>
+          <!-- My custom -->
+          <div class="small-break"></div>
+          
+              <span class="venue">ACLW 2023</span>
+          
+          
+          <!-- 
+            <span class="tags-container"> 
+                
+                
+                      <span class="tag"># Robustness</span>
+                
+            </span>
+           -->
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2302.14413" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Recent studies reveal that various biases exist in different NLP tasks, and over-reliance on biases results in models’ poor generalization ability and low adversarial robustness. To mitigate datasets biases, previous works propose lots of debiasing techniques to tackle specific biases, which perform well on respective adversarial sets but fail to mitigate other biases. In this paper, we propose a new debiasing method Sparse Mixture-of-Adapters (SMoA), which can mitigate multiple dataset biases effectively and efficiently. Experiments on Natural Language Inference and Paraphrase Identification tasks demonstrate that SMoA outperforms full-finetuning, adapter tuning baselines, and prior strong debiasing methods. Further analysis indicates the interpretability of SMoA that sub-adapter can capture specific pattern from the training data and specialize to handle specific bias.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2022sMixtureAdapters</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{SMoA: Sparse Mixture of Adapters to Mitigate Multiple Dataset Biases}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Yanchen and Yan, Jing and Chen, Yan and Liu, Jing and Wu, Hua}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{ACL 2023}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{ACL Workshop on Trustworthy Natural Language Processing, 2022}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/SOUP.jpg"></div> <div id="Liu2022SemanticPriming" class="col-sm-8"> <div class="title">Semantic-Oriented Unlabeled Priming for Large-Scale Language Models</div> <div class="author"> <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, <a href="https://scholar.google.de/citations?user=k8CKy5UAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Timo Schick</a>, and <a href="https://scholar.google.com/citations?user=qIL9dWUAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Hinrich Schütze</a> </div> <div class="periodical"> <em>In ACL Workshop on Simple and Efficient Natural Language Processing, 2022</em> </div> <div class="small-break"></div> <span class="venue">ACLW 2023</span> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2202.06133" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="abstract hidden"> <p>Due to the high costs associated with finetuning large language models, various recent works propose to adapt them to specific tasks without any parameter updates through in-context learning. Unfortunately, for in-context learning there is currently no way to leverage unlabeled data, which is often much easier to obtain in large quantities than labeled examples. In this work, we therefore investigate ways to make use of unlabeled examples to improve the zero-shot performance of pretrained language models without any finetuning: We introduce Semantic-Oriented Unlabeled Priming (SOUP), a method that classifies examples by retrieving semantically similar unlabeled examples, assigning labels to them in a zero-shot fashion, and then using them for in-context learning. We also propose bag-of-contexts priming, a new priming strategy that is more suitable for our setting and enables the usage of more examples than fit into the context window.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2022SemanticPriming</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/SOUP.jpg"></div>
+
+        <!-- Entry bib key -->
+        <div id="Liu2022SemanticPriming" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Semantic-Oriented Unlabeled Priming for Large-Scale Language Models</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>, <a href="https://scholar.google.de/citations?user=k8CKy5UAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Timo Schick</a>, and <a href="https://scholar.google.com/citations?user=qIL9dWUAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Hinrich Schütze</a>
+</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <div class="periodical">
+            <em>In ACL Workshop on Simple and Efficient Natural Language Processing, 2022</em>
+          </div>
+          <!-- My custom -->
+          <div class="small-break"></div>
+          
+              <span class="venue">ACLW 2023</span>
+          
+          
+          <!-- 
+            <span class="tags-container"> 
+                
+                
+                      <span class="tag"># Low-Resource</span>
+                
+                      <span class="tag"># Data-Efficiency</span>
+                
+            </span>
+           -->
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2202.06133" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Due to the high costs associated with finetuning large language models, various recent works propose to adapt them to specific tasks without any parameter updates through in-context learning. Unfortunately, for in-context learning there is currently no way to leverage unlabeled data, which is often much easier to obtain in large quantities than labeled examples. In this work, we therefore investigate ways to make use of unlabeled examples to improve the zero-shot performance of pretrained language models without any finetuning: We introduce Semantic-Oriented Unlabeled Priming (SOUP), a method that classifies examples by retrieving semantically similar unlabeled examples, assigning labels to them in a zero-shot fashion, and then using them for in-context learning. We also propose bag-of-contexts priming, a new priming strategy that is more suitable for our setting and enables the usage of more examples than fit into the context window.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Liu2022SemanticPriming</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Semantic-Oriented Unlabeled Priming for Large-Scale Language Models}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Yanchen and Schick, Timo and Schütze, Hinrich}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{ACL 2023}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{ACL Workshop on Simple and Efficient Natural Language Processing, 2022}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/robo.png"></div> <div id="Wu2022CustomSineWaves" class="col-sm-8"> <div class="title">Custom Sine Waves Are Enough for Imitation Learning of Bipedal Gaits with Different Styles</div> <div class="author"> Qi Wu*, Chong Zhang*, and <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em> </div> <div class="periodical"> <em>In IEEE International Conference on Mechatronics and Automation 2022</em> </div> <div class="small-break"></div> <span class="venue">ICMA 2022</span> <span class="award"><i class="fas fa-award"></i> Finalists of Best Paper Award in Mechatronics</span> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2204.04157" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="abstract hidden"> <p>Not until recently, robust bipedal locomotion has been achieved through reinforcement learning. However, existing implementations rely heavily on insights and efforts from human experts, which is costly for the iterative design of robot systems. Also, styles of the learned motion are strictly limited to that of the reference. In this paper, we propose a new way to learn bipedal locomotion from a simple sine wave as the reference for foot heights. With the naive human insight that the two feet should be lifted up alternatively and periodically, we experimentally demonstrate on the Cassie robot that, a simple reward function is able to make the robot learn to walk end-to-end and efficiently without any explicit knowledge of the model. With custom sine waves, the learned gait pattern can also have customized styles.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Wu2022CustomSineWaves</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/robo.png"></div>
+
+        <!-- Entry bib key -->
+        <div id="Wu2022CustomSineWaves" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Custom Sine Waves Are Enough for Imitation Learning of Bipedal Gaits with Different Styles</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Qi Wu*, Chong Zhang*, and <em style="color: #990000; opacity: 0.9;">Yanchen Liu</em>
+</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <div class="periodical">
+            <em>In IEEE International Conference on Mechatronics and Automation 2022</em>
+          </div>
+          <!-- My custom -->
+          <div class="small-break"></div>
+          
+              <span class="venue">ICMA 2022</span>
+          
+          
+              <span class="award"><i class="fas fa-award"></i> Finalists of Best Paper Award in Mechatronics</span>
+          
+          <!--  -->
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2204.04157" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Not until recently, robust bipedal locomotion has been achieved through reinforcement learning. However, existing implementations rely heavily on insights and efforts from human experts, which is costly for the iterative design of robot systems. Also, styles of the learned motion are strictly limited to that of the reference. In this paper, we propose a new way to learn bipedal locomotion from a simple sine wave as the reference for foot heights. With the naive human insight that the two feet should be lifted up alternatively and periodically, we experimentally demonstrate on the Cassie robot that, a simple reward function is able to make the robot learn to walk end-to-end and efficiently without any explicit knowledge of the model. With custom sine waves, the learned gait pattern can also have customized styles.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Wu2022CustomSineWaves</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Custom Sine Waves Are Enough for Imitation Learning of Bipedal Gaits with Different Styles}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Wu*, Qi and Zhang*, Chong and Liu, Yanchen}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE International Conference on Mechatronics and Automation (ICMA) 2022. Finalists of Toshio Fukuda Best Paper Award in Mechatronics.}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{IEEE International Conference on Mechatronics and Automation 2022}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> </div> </article> </div> </div> <footer class="fixed-bottom"> <div class="container mt-0"> © Copyright 2025 Yanchen Liu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Last updated: September 25, 2025. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script> <script defer src="/assets/js/masonry.js" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js"></script> <script defer src="/assets/js/common.js"></script> <script type="text/javascript">window.MathJax={tex:{tags:"ams"}};</script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script> <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script async src="https://www.googletagmanager.com/gtag/js?id="></script> <script>function gtag(){window.dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","");</script> </body> </html>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+
+</div>
+
+          </article>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2025 Yanchen  Liu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+Last updated: September 25, 2025.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '');
+  </script>
+  </body>
+</html>
