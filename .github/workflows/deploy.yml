@@ -20,6 +20,9 @@ jobs:
           ruby-version: '3.0.2'
           bundler-cache: true
 
+      - name: Upgrade Bundler
+        run: gem install bundler
+
       - name: Install Node & Mermaid
         run: |
           npm install -g mermaid.cli
