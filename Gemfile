@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
-# Lock uri to Ruby default gem version to prevent conflicts
-gem 'uri', '~> 0.10'
-
 group :jekyll_plugins do
   gem 'jekyll'
   gem 'jekyll-archives'
