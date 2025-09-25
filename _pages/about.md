@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 I am a 1st-year PhD student at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="13px">.
 
 Previously, I obtained my Master's degree from [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">, where I was a member of the 
-	AI4LIFE Group 
+	AI4LIFE Group
 	<!-- at Harvard SEAS -->
 	, working with Prof. 
 	[Hima Lakkaraju](https://himalakkaraju.github.io/).
