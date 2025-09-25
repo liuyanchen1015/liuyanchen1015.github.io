@@ -18,7 +18,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0.2'
-          bundler-cache: true
+          bundler-cache: false   # disable automatic cache to avoid conflicts
 
       - name: Upgrade Bundler
         run: gem install bundler
@@ -27,9 +27,14 @@ jobs:
         run: |
           npm install -g mermaid.cli
 
-      - name: Install gems
+      - name: Install gems cleanly
         run: |
-          bundle install --jobs 4 --retry 3
+          # remove old bundler environment
+          gem uninstall bundler -a -x || true
+          gem install bundler
+          bundle config set --local path 'vendor/bundle'
+          bundle config set --local without 'development'
+          bundle install --jobs 4 --retry 3 --clean
 
       - name: Build site with Jekyll
         run: |
