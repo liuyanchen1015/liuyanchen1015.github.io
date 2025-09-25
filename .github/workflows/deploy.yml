@@ -17,8 +17,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0.2'
-          bundler-cache: false   # disable automatic cache to avoid conflicts
+          ruby-version: '3.2.2'
+          bundler-cache: true
 
       - name: Upgrade Bundler
         run: gem install bundler
