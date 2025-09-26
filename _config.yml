@@ -6,7 +6,7 @@ title: Yanchen Liu # the website title (if blank, full name will be used instead
 first_name: Yanchen
 middle_name: 
 last_name: Liu
-email: yanchenliu@fas.harvard.edu
+email: ychenliu@mit.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Yanchen Liu Homepage. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -17,9 +17,9 @@ keywords: 刘延晨, Yanchen Liu, yanchen Liu, Yanchen liu, yanchen liu, Yanchen
           慕尼黑大学, LMU, Ludwig Maximilian University of Munich,
           清华大学, 清华, THU, Tsinghua University, 	
           麻省理工学院, 麻省理工, MIT, Massachusetts Institute of Technology,	       
-          哈佛大学, Harvard, Harvard University,
-          斯坦福大学, Stanford, Stanford University,
-          洛阳，北京, 慕尼黑, 波士顿, 剑桥, Luoyang, Peking, Munich, Boston, Cambridge
+          哈佛大学, 哈佛, Harvard, Harvard University,
+          斯坦福大学, 斯坦福, Stanford, Stanford University,
+          洛阳，北京, 慕尼黑, 波士顿, 剑桥, Luoyang, Peking, Munich, Boston, Cambridge, Palo Alto
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ico.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -100,7 +100,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Please feel free to email me if you are interested in academic collaborations.
+  Feel free to shoot me an email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
