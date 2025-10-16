@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
 
-Hi all! I am a 1st-year PhD student at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="14px">.
+Hi all! I am a 1st-year PhD student at [MIT](https://www.mit.edu/) <img src="assets/img/MIT.png" alt="mit" height="14px">. My research is generously supported by [MIT Michael Hammer Fellowship](https://idss.mit.edu/academics/ses/ses-funding/hammer-fellows/).
 
 Previously, I obtained my Master's degree from [Harvard University](https://www.harvard.edu/) <img src="assets/img/h.png" alt="h" height="20px">, where I worked with Prof. [Hima Lakkaraju](https://himalakkaraju.github.io/) and my Bachelor's degree in Computer Science from 
 [TUM](https://www.tum.de/en/) <img src="assets/img/TUM.png" alt="tum" height="13px"> , with a minor in Computational Linguistics at 
