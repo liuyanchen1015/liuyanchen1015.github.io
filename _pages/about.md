@@ -23,4 +23,7 @@ Previously, I obtained my Master's degree from [Harvard University](https://www.
 [Stanford NLP Group](https://nlp.stanford.edu/) <img src="assets/img/Stanford.png" alt="s" height="19px"> , collaborating with Prof.
 [Diyi Yang](https://cs.stanford.edu/~diyiy/index.html) for one year.
 
-My current research interests mainly lie in `LLM safety`<a href="https://arxiv.org/abs/2305.13406">[1]</a><a href="https://arxiv.org/abs/2311.00915">[2]</a><a href="https://arxiv.org/abs/2310.14607">[3]</a><a href="https://arxiv.org/abs/2409.00138">[4]</a><a href="https://arxiv.org/abs/2311.09630">[5]</a>, e.g. the `safety of LM agents` <a href="https://arxiv.org/abs/2409.00138">[4]</a>, `alignment`, and `scalable oversight`, as well as other issues related to `Human–AI Symbiosis` that we may face in the future.
+<-- My current research interests mainly lie in `LLM safety`<a href="https://arxiv.org/abs/2305.13406">[1]</a><a href="https://arxiv.org/abs/2311.00915">[2]</a><a href="https://arxiv.org/abs/2310.14607">[3]</a><a href="https://arxiv.org/abs/2409.00138">[4]</a><a href="https://arxiv.org/abs/2311.09630">[5]</a>, e.g. the `safety of LM agents` <a href="https://arxiv.org/abs/2409.00138">[4]</a>, `alignment`, and `scalable oversight`, as well as other issues related to `Human–AI Symbiosis` that we may face in the future. -->
+
+My current research interests mainly lie in `scalable supervision` and `scalable oversight`, i.e., how to train and oversee superhuman-level AI systems.
+
