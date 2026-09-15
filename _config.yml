@@ -8,7 +8,7 @@ middle_name:
 last_name: Liu
 email: ychenliu@mit.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yanchen Liu Homepage. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Yanchen Liu (刘延晨) is a PhD student at MIT IDSS and CSAIL, working on scalable supervision and scalable oversight of AI systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -133,8 +133,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections

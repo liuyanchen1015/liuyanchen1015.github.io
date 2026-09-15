@@ -6,7 +6,7 @@ subtitle:
 profile:
   align: left
   video: me_live.mp4
-  image: me_live_poster.png
+  image: me_live_poster.jpg
   image_circular: false # crops the image to make it circular
   address: <p align="left"><font size="2">Cambridge, MA, USA 02139<br>Schwarzman College of Computing, MIT</font></p>
 
@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 --- 
 
-Hi all! I am a 2nd-year PhD student at <img src="assets/img/MIT.png" alt="mit" height="14px"> [MIT](https://www.mit.edu/) [IDSS](https://idss.mit.edu/) and [CSAIL](https://www.csail.mit.edu/), advised by Prof. [Dylan Hadfield-Menell](https://people.csail.mit.edu/dhm/). My research was generously supported by [MIT Michael Hammer Fellowship](https://idss.mit.edu/academics/ses/ses-funding/hammer-fellows/).
+Hi all! I am a 2nd-year PhD student at <img src="assets/img/MIT.png" alt="mit" height="14px"> [MIT](https://www.mit.edu/) [IDSS](https://idss.mit.edu/) and [CSAIL](https://www.csail.mit.edu/), advised by Prof. [Dylan Hadfield-Menell](https://people.csail.mit.edu/dhm/). My research was generously supported by the [MIT Michael Hammer Fellowship](https://idss.mit.edu/academics/ses/ses-funding/hammer-fellows/).
 
 Previously, I obtained my Master's degree from <img src="assets/img/h.png" alt="h" height="20px"> [Harvard University](https://www.harvard.edu/), where I worked with Prof. [Hima Lakkaraju](https://himalakkaraju.github.io/) and my Bachelor's degree in Computer Science from 
 <img src="assets/img/TUM.png" alt="tum" height="13px"> [TUM](https://www.tum.de/en/), with a minor in Computational Linguistics at 
