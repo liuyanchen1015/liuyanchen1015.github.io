@@ -17,6 +17,8 @@
 "Ma":
   - firstname: ["Xuezhe"]
     url: https://xuezhemax.github.io/
+  - firstname: ["Jiaqi"]
+    url: https://jiaqima.github.io/
 
 "Peng":
   - firstname: ["Nanyun", "Nanyun Peng"]
@@ -29,10 +31,6 @@
 "Lakkaraju":
   - firstname: ["Hima Lakkaraju", "Hima", "Himabindu Lakkaraju", "Himabindu"]
     url: https://himalakkaraju.github.io/
-
-"Ma":
-  - firstname: ["Jiaqi"]
-    url: https://jiaqima.github.io/
 
 # "Zhang":
 #   - firstname: ["Chong", "Chong Zhang"]

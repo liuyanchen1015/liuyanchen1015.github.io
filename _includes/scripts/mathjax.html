@@ -1,4 +1,7 @@
-  {%- if site.enable_math -%}
+  {%- comment -%} Load MathJax only on blog posts and on pages with `math: true` in their front matter {%- endcomment -%}
+  {%- assign load_math = page.math -%}
+  {%- if page.collection == 'posts' -%}{%- assign load_math = true -%}{%- endif -%}
+  {%- if site.enable_math and load_math -%}
   <!-- MathJax -->
   <script type="text/javascript">
     window.MathJax = {
