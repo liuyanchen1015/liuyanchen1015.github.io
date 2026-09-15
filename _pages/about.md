@@ -5,7 +5,8 @@ permalink: /
 subtitle:
 profile:
   align: left
-  image: me_.png
+  video: me_live.mp4
+  image: me_live_poster.png
   image_circular: false # crops the image to make it circular
   address: <p align="left"><font size="2">Cambridge, MA, USA 02139<br>Schwarzman College of Computing, MIT</font></p>
 

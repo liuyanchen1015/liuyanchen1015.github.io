@@ -13,7 +13,22 @@ layout: default
         <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
+            {%- if page.profile.video %}
+              {%- assign profile_video_path = page.profile.video | prepend: 'assets/img/' -%}
+              {%- if page.profile.image %}
+                {%- assign profile_poster_path = page.profile.image | prepend: 'assets/img/' -%}
+              {%- endif %}
+              <figure>
+                <video
+                  class="img-fluid z-depth-1 {% if page.profile.image_circular %}rounded-circle{% else %}rounded{% endif %}"
+                  autoplay loop muted playsinline
+                  {% if page.profile.image %}poster="{{ profile_poster_path | relative_url }}"{% endif %}
+                  aria-label="Yanchen Liu">
+                  <source src="{{ profile_video_path | relative_url }}" type="video/mp4">
+                  {% if page.profile.image %}<img src="{{ profile_poster_path | relative_url }}" class="img-fluid z-depth-1 rounded" alt="Yanchen Liu">{% endif %}
+                </video>
+              </figure>
+            {%- elsif page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
               {% if page.profile.image_circular %}
