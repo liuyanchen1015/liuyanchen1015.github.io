@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "PhD Student at MIT IDSS &amp; CSAIL &middot; Scalable Oversight of Superhuman AI"
+subtitle:
 profile:
   align: left
   video: me_live.mp4
