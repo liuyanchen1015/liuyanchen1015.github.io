@@ -36,6 +36,8 @@
               <img class="venue-logo" src="{{ '/assets/img/icons/acl.png' | relative_url }}" alt="">
               {%- elsif entry.venue contains 'NeurIPS' -%}
               <img class="venue-logo" src="{{ '/assets/img/icons/neurips.png' | relative_url }}" alt="">
+              {%- elsif entry.venue contains 'AAAI' -%}
+              <img class="venue-logo" src="{{ '/assets/img/icons/aaai.png' | relative_url }}" alt="">
               {%- endif -%}
               {{ entry.venue }}
             </span>
