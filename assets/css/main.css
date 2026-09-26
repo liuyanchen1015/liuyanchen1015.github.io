@@ -155,27 +155,61 @@ body.sticky-bottom-footer {
 }
 
 .venue {
-  display: inline-block;
-  /* background-color: #13354C; /* Background color */
-  background-color: var(--global-theme-color);
-  padding: 2px 6px; /* Space around the text */
-  margin: 2px; /* Space around the border */
-  border-radius: 12px; /* Rounded border edges */
-  font-size: 12px; /* Font size */
-  border: 0.5px solid #EEEEEF; /* Gray border */
+  display: inline-flex; /* keeps the conference logo on the same line as the text */
+  align-items: center;
+  gap: 5px;
+  background-color: #1f2328; /* Background color */
+  padding: 4px 10px; /* Space around the text */
+  border-radius: 999px; /* Pill shape */
+  font-size: 11.5px; /* Font size */
   color: #ffffff; /* Text color */
   text-decoration: none; /* Remove underline for links */
-  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
-  font-weight: bold; /* Bold font */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-weight: 600;
 }
 
 .venue:hover {
-  /* background-color: #f8f3dd; /* Background color when hovered */
-  background-color: #ffffff;
-  /* color: #84A59D; /* Text color when hovered */
-  color: var(--global-theme-color);
-  cursor: pointer; /* Cursor appearance on hover */
-  border-color: #EEEEEF; /* Maintains the border color when hovered, remove if you want the border color to change */
+  background-color: #33393f;
+  color: #ffffff;
+}
+
+.venue .venue-logo {
+  height: 12px;
+  width: auto;
+}
+
+/* Badge + link icon row shown above each publication title */
+.pub-kicker {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.pub-kicker .links {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-left: 0.3rem;
+}
+
+.pub-logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.pub-logo img {
+  height: 19px;
+  width: auto;
+}
+.pub-logo i {
+  font-size: 1.05rem;
+  color: #3c4043;
+}
+.pub-logo:hover {
+  opacity: 0.75;
+  text-decoration: none;
 }
 
 .award {
@@ -669,16 +703,22 @@ footer.sticky-bottom {
 .publications ol.bibliography li .title {
   font-weight: bolder;
 }
+.publications ol.bibliography li .author {
+  font-size: 0.9rem;
+  color: #5f6368;
+}
 .publications ol.bibliography li .author a {
-  border-bottom: 1px dashed var(--global-theme-color);
+  color: #5f6368;
+  border-bottom: 0;
 }
 .publications ol.bibliography li .author a:hover {
-  border-bottom-style: solid;
+  color: var(--global-theme-color);
   text-decoration: none;
 }
 .publications ol.bibliography li .author > em {
-  border-bottom: 1px solid;
+  border-bottom: 0;
   font-style: normal;
+  color: #1f2328; /* your own name: darker than the rest of the line */
 }
 .publications ol.bibliography li .author > span.more-authors {
   color: var(--global-text-color-light);
