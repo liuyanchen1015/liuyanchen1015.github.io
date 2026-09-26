@@ -158,19 +158,19 @@ body.sticky-bottom-footer {
   display: inline-flex; /* keeps the conference logo on the same line as the text */
   align-items: center;
   gap: 5px;
-  background-color: #f1f3f4; /* Background color */
+  background-color: #f6f7f8; /* Background color */
   padding: 4px 10px; /* Space around the text */
   border-radius: 999px; /* Pill shape */
   font-size: 11.5px; /* Font size */
-  color: #3c4043; /* Text color */
+  color: #5f6368; /* Text color */
   text-decoration: none; /* Remove underline for links */
   transition: background-color 0.3s; /* Smooth transition for hover effect */
   font-weight: 600;
 }
 
 .venue:hover {
-  background-color: #e8eaed;
-  color: #3c4043;
+  background-color: #eef0f1;
+  color: #5f6368;
 }
 
 .venue .venue-logo {
@@ -183,12 +183,19 @@ body.sticky-bottom-footer {
   display: inline-flex;
   align-items: center;
   background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.14);
   color: #5f6368;
   padding: 3px 9px;
   border-radius: 999px;
   font-size: 11.5px;
   font-weight: 600;
+  font-variant-numeric: tabular-nums; /* 191 and 11 line up */
+  letter-spacing: 0.01em;
+}
+.pub-cites i {
+  margin-right: 5px;
+  font-size: 0.95em;
+  opacity: 0.75;
 }
 
 /* Badge + link icon row shown above each publication title */
