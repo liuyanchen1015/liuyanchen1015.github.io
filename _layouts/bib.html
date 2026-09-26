@@ -49,7 +49,7 @@
               {%- assign cites = site.data.citations.counts[entry.arxiv] -%}
               {%- if cites -%}
                 {%- if cites >= site.citation_min %}
-            <span class="pub-cites">#Cites: {{ cites }}</span>
+            <span class="pub-cites" title="Citations on Google Scholar"><i class="ai ai-google-scholar"></i>{{ cites }}</span>
                 {%- endif -%}
               {%- endif -%}
             {%- endif %}
