@@ -111,8 +111,8 @@
         width: auto;
     }
     i {
-        font-size: 1.05rem;
-        color: #3c4043;
+        font-size: 1.15rem;
+        color: #1f2328;
     }
     &:hover {
         opacity: 0.75;
@@ -699,9 +699,9 @@ footer.sticky-bottom {
           }
         }
         > em {
-          border-bottom: 0;
+          border-bottom: 1px solid;
           font-style: normal;
-          color: #1f2328; /* your own name: darker than the rest of the line */
+          color: var(--global-theme-color); /* your own name */
         }
         > span.more-authors {
           color: var(--global-text-color-light);

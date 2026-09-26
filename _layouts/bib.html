@@ -34,6 +34,8 @@
             <span class="venue">
               {%- if entry.venue contains 'ACL' or entry.venue contains 'EMNLP' -%}
               <img class="venue-logo" src="{{ '/assets/img/icons/acl.png' | relative_url }}" alt="">
+              {%- elsif entry.venue contains 'NeurIPS' -%}
+              <img class="venue-logo" src="{{ '/assets/img/icons/neurips.png' | relative_url }}" alt="">
               {%- endif -%}
               {{ entry.venue }}
             </span>
@@ -46,7 +48,7 @@
               <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="pub-logo" title="arXiv" role="button"><img src="{{ '/assets/img/icons/arxiv.png' | relative_url }}" alt="arXiv"></a>
               {%- endif %}
               {%- if entry.code %}
-              <a href="{{ entry.code }}" class="pub-logo" title="Code" role="button"><img src="{{ '/assets/img/icons/github.png' | relative_url }}" alt="Code"></a>
+              <a href="{{ entry.code }}" class="pub-logo" title="Code" role="button"><i class="fab fa-github"></i></a>
               {%- endif %}
               {%- if entry.html %}
               <a href="{{ entry.html }}" class="pub-logo" title="Project page" role="button"><i class="fas fa-globe"></i></a>
