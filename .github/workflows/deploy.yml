@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+  workflow_dispatch: # also run after the weekly citation refresh
 
 jobs:
   build-deploy:

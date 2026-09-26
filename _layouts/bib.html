@@ -45,6 +45,14 @@
             {%- if entry.award %}
             <span class="award"><i class="fas fa-award"></i> {{entry.award}}</span>
             {%- endif %}
+            {%- if entry.arxiv -%}
+              {%- assign cites = site.data.citations.counts[entry.arxiv] -%}
+              {%- if cites -%}
+                {%- if cites >= site.citation_min %}
+            <span class="pub-cites">#Cites: {{ cites }}</span>
+                {%- endif -%}
+              {%- endif -%}
+            {%- endif %}
             <div class="links">
               {%- if entry.arxiv %}
               <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="pub-logo" title="arXiv" role="button"><img src="{{ '/assets/img/icons/arxiv.png' | relative_url }}" alt="arXiv"></a>

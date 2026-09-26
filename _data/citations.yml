@@ -1,0 +1,9 @@
+# Citation counts from Semantic Scholar - do not edit by hand.
+# Refreshed by bin/update_citations.py (weekly, see .github/workflows/citations.yml).
+updated: 2026-09-26
+counts:
+  "2311.09630": 6
+  "2310.14607": 32
+  "2311.00915": 14
+  "2202.06133": 17
+  "2310.02529": 5

@@ -65,24 +65,37 @@
     display: inline-flex; /* keeps the conference logo on the same line as the text */
     align-items: center;
     gap: 5px;
-    background-color: #1f2328; /* Background color */
+    background-color: #f1f3f4; /* Background color */
     padding: 4px 10px; /* Space around the text */
     border-radius: 999px; /* Pill shape */
     font-size: 11.5px; /* Font size */
-    color: #ffffff; /* Text color */
+    color: #3c4043; /* Text color */
     text-decoration: none; /* Remove underline for links */
     transition: background-color 0.3s; /* Smooth transition for hover effect */
     font-weight: 600;
 }
 
 .venue:hover {
-    background-color: #33393f;
-    color: #ffffff;
+    background-color: #e8eaed;
+    color: #3c4043;
 }
 
 .venue .venue-logo {
     height: 12px;
     width: auto;
+}
+
+/* Citation count, refreshed weekly into _data/citations.yml */
+.pub-cites {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    color: #5f6368;
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-size: 11.5px;
+    font-weight: 600;
 }
 
 /* Badge + link icon row shown above each publication title */
