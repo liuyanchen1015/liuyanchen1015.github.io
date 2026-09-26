@@ -1,0 +1,39 @@
+name: Sync citation counts
+
+on:
+  schedule:
+    - cron: '17 4 * * 1' # every Monday, 04:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write # to kick off the deploy once the numbers change
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+
+      - name: Sync from Google Scholar
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python3 bin/sync_citations.py # no key, unreachable API or an unmatched paper all leave the counts as they are
+
+      - name: Commit and rebuild the site if the numbers changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- _data/citations.yml; then
+            echo "counts unchanged, nothing to do"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/citations.yml
+          git commit -m "Sync citation counts from Google Scholar"
+          git push
+          # a push made with GITHUB_TOKEN does not trigger deploy.yml, so ask for it
+          gh workflow run deploy.yml --ref master

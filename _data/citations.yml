@@ -1,21 +1,16 @@
-# Citation counts shown as "#Cites" badges next to each publication.
-#
-# Numbers come from Google Scholar (https://scholar.google.com/citations?user=Ypagfq8AAAAJ),
-# which counts preprints, workshops and venues the open databases miss, so they
-# run well above Semantic Scholar or OpenAlex. Google Scholar has no API and its
-# terms forbid scraping, so this file is updated by hand - open your profile,
-# copy the numbers across, commit. Badges below citation_min in _config.yml
-# (currently 5) are hidden.
-#
-# Keys are the arxiv ids used in _bibliography/papers.bib.
+# Citation counts shown as badges next to each publication.
+# Synced from Google Scholar via SerpApi by bin/sync_citations.py
+# (weekly, see .github/workflows/citations.yml). Do not edit by hand.
 updated: 2026-09-26
+total: 351
+h_index: 7
 counts:
   "2409.00138": 191 # PrivacyLens (NeurIPS 2024)
-  "2310.14607": 58 # Confronting LLMs with Traditional ML (NAACL 2024)
-  "2311.00915": 26 # Task-Agnostic Low-Rank Adapters (EMNLP 2023)
-  "2305.13406": 22 # DADA (EMNLP 2023)
-  "2202.06133": 17 # Semantic-Oriented Unlabeled Priming (SustaiNLP)
-  "2204.04157": 15 # Custom Sine Waves (ICMA 2022)
   "2311.09630": 11 # Decoding Susceptibility (EMNLP 2024)
+  "2310.14607": 58 # Confronting LLMs with Traditional ML (NAACL 2024)
+  "2305.13406": 22 # DADA (EMNLP 2023)
+  "2311.00915": 26 # Task-Agnostic Low-Rank Adapters for Unse (EMNLP 2023)
+  "2302.14413": 5 # SMoA (ACLW 2023)
+  "2202.06133": 17 # Semantic-Oriented Unlabeled Priming for  (ACLW 2023)
   "2310.02529": 6 # MIDDAG (AAAI 2024 Demonstrations)
-  "2302.14413": 5 # SMoA (TrustNLP 2022)
+  "2204.04157": 15 # Custom Sine Waves Are Enough for Imitati (ICMA 2022)
