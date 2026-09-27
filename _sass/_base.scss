@@ -113,6 +113,10 @@
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 0.3rem;
+
+    @media (max-width: 575.98px) {
+        margin-bottom: 0.45rem;
+    }
 }
 
 .pub-kicker .links {
@@ -684,6 +688,12 @@ footer.sticky-bottom {
         width: 100%;
         min-width: 80px;
         max-width: 200px;
+
+        /* below the sm breakpoint the thumbnail stacks on top of the entry,
+           where it would otherwise sit flush against the badge row */
+        @media (max-width: 575.98px) {
+          margin-bottom: 0.8rem;
+        }
       }
       .abbr {
         height: 2rem;
