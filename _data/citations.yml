@@ -1,11 +1,11 @@
 # Citation counts shown as badges next to each publication.
 # Synced from Google Scholar via SerpApi by bin/sync_citations.py
 # (weekly, see .github/workflows/citations.yml). Do not edit by hand.
-updated: 2026-09-26
-total: 351
+updated: 2026-09-28
+total: 352
 h_index: 7
 counts:
-  "2409.00138": 191 # PrivacyLens (NeurIPS 2024)
+  "2409.00138": 192 # PrivacyLens (NeurIPS 2024)
   "2311.09630": 11 # Decoding Susceptibility (EMNLP 2024)
   "2310.14607": 58 # Confronting LLMs with Traditional ML (NAACL 2024)
   "2305.13406": 22 # DADA (EMNLP 2023)
