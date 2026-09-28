@@ -699,6 +699,14 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li {
   margin-bottom: 1rem;
+  /* Hairline between entries. Thumbnails have different heights, so the
+     white space beside each gap varies and the gaps read as uneven even
+     though they are all 16px; a line gives the eye something fixed to
+     measure from. */
+}
+.publications ol.bibliography li + li {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 1rem;
 }
 .publications ol.bibliography li .preview {
   width: 100%;
