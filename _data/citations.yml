@@ -1,7 +1,7 @@
 # Citation counts shown as badges next to each publication.
 # Synced from Google Scholar via SerpApi by bin/sync_citations.py
 # (weekly, see .github/workflows/citations.yml). Do not edit by hand.
-updated: 2026-10-04
+updated: 2026-10-05
 total: 365
 h_index: 7
 counts:
