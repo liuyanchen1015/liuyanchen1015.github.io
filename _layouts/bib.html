@@ -66,6 +66,9 @@
               {%- if entry.website %}
               <a href="{{ entry.website }}" class="pub-logo" title="Website" role="button"><i class="fas fa-globe"></i></a>
               {%- endif %}
+              {%- if entry.registry %}
+              <a href="{{ entry.registry }}" class="pub-logo" title="Audit registry" role="button"><i class="fas fa-book"></i></a>
+              {%- endif %}
               {%- if entry.pdf %}
               <a href="{% if entry.pdf contains '://' %}{{ entry.pdf }}{% else %}{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}{% endif %}" class="pub-logo" title="PDF" role="button"><i class="fas fa-file-pdf"></i></a>
               {%- endif %}
