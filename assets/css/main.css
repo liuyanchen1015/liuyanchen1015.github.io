@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*******************************************************************************
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
@@ -69,6 +70,7 @@ html[data-theme=dark] .repo-img-dark {
  ******************************************************************************/
 body {
   padding-bottom: 70px;
+  font-size: 17px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 }
@@ -85,7 +87,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .profile img {
@@ -261,6 +263,211 @@ body.sticky-bottom-footer {
   border-color: #EEEEEF; /* Maintains the border color when hovered, remove if you want the border color to change */
 }
 
+/* Email / CV / profile buttons under the intro */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #3c4043;
+  background-color: #ffffff;
+  text-decoration: none;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+.contact-btn i {
+  font-size: 0.95em;
+  color: #5f6368;
+}
+.contact-btn:hover {
+  text-decoration: none;
+  color: #1f2328;
+  border-color: rgba(0, 0, 0, 0.3);
+  background-color: #f6f7f8;
+}
+
+.contact-btn-primary {
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: #ffffff;
+}
+.contact-btn-primary i {
+  color: #ffffff;
+}
+.contact-btn-primary:hover {
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+/* Section heading with a "see all" link on the right, plus its note line */
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.section-link {
+  font-size: 0.9rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.section-note {
+  font-size: 0.85rem;
+  color: #5f6368;
+  margin: -0.35rem 0 0.9rem;
+}
+
+/* Current and previous affiliations, shown full width under the intro */
+.affiliations {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem 2.5rem;
+  margin: 1.4rem 0 0.25rem;
+  /* fixed columns, so the second entry starts at the same x whatever the
+     first one's name length */
+}
+@media (min-width: 576px) {
+  .affiliations {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 640px;
+  }
+}
+
+.affiliation-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.affiliation-logo {
+  flex: 0 0 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.affiliation-logo img {
+  max-width: 28px;
+  max-height: 24px;
+  width: auto;
+  height: auto;
+}
+
+.affiliation-org {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 400; /* body text is 300, so 400 is enough of a step; the colour does the rest */
+  line-height: 1.3;
+  color: #1f2328;
+}
+.affiliation-org a {
+  color: inherit;
+}
+
+.affiliation-role {
+  display: block;
+  font-size: 0.82rem;
+  color: #5f6368;
+  line-height: 1.3;
+}
+
+/* experience / honors & awards / talks: period on the left, entry on the right */
+.section-block {
+  margin-top: 2.25rem;
+}
+.section-block h2 {
+  margin-bottom: 0.75rem;
+}
+
+.section-table th {
+  width: 18%;
+  min-width: 105px;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #5f6368;
+  white-space: nowrap;
+  padding-top: 0.6rem;
+}
+.section-table td {
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.section-org {
+  font-weight: 400; /* body text is 300; emphasis comes from the darker colour */
+  color: #1f2328;
+}
+
+/* logo + text, so every entry lines up on the same left edge */
+.section-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.section-logo {
+  flex: 0 0 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+.section-logo img {
+  max-width: 26px;
+  max-height: 20px;
+  width: auto;
+  height: auto;
+}
+
+.section-entry-text {
+  display: block;
+}
+
+.section-unit,
+.section-role {
+  color: #5f6368;
+}
+.section-unit:before,
+.section-role:before {
+  content: " ·";
+}
+
+.section-sub {
+  display: block;
+  font-size: 0.9rem;
+  color: #5f6368;
+  margin-top: 0.15rem;
+}
+
+/* "Show earlier news" toggle */
+.news-toggle {
+  border: 0;
+  background: none;
+  padding: 0;
+  font-size: 0.9rem;
+  color: var(--global-theme-color);
+  cursor: pointer;
+}
+.news-toggle:hover {
+  text-decoration: underline;
+}
+
 .research_interest {
   display: inline-block;
   /* background-color: #13354C; /* Background color */
@@ -360,14 +567,45 @@ blockquote {
 .profile {
   width: 100%;
 }
+.profile .contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.9rem;
+}
+.profile .contact-row a {
+  color: #5f6368;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+.profile .contact-row a:hover {
+  color: var(--global-theme-color);
+}
+.profile .contact-row .contact-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
 .profile .address {
   margin-bottom: 5px;
-  margin-top: 5px;
-  font-family: monospace;
+  margin-top: 0.9rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  /* on phones the profile stacks straight on top of the intro, where 5px
+     leaves the address glued to the first line of text */
+}
+@media (max-width: 575.98px) {
+  .profile .address {
+    margin-bottom: 18px;
+  }
 }
 .profile .address p {
   display: inline-block;
   margin: 0;
+}
+.profile .address .affiliation-note {
+  color: #5f6368;
 }
 
 .profile.float-right {
