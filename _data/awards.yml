@@ -1,0 +1,7 @@
+# Shown in the "honors & awards" section on the homepage (_includes/awards.html).
+# Newest first; `text` may contain HTML.
+- year: 2025
+  text: <a href="https://idss.mit.edu/academics/ses/ses-funding/hammer-fellows/">MIT Michael Hammer Fellowship</a>
+
+- year: 2022
+  text: Finalist, Best Paper Award in Mechatronics, ICMA 2022

@@ -1,0 +1,17 @@
+          <div class="section-block talks">
+            <h2>talks</h2>
+            <table class="table table-sm table-borderless section-table">
+              {%- for item in site.data.talks %}
+              <tr>
+                <th scope="row">{{ item.date }}</th>
+                <td>
+                  <span class="section-org">{{ item.title }}</span>
+                  <div class="section-sub">
+                    {% if item.venue_url %}<a href="{{ item.venue_url }}" target="_blank" rel="noopener">{{ item.venue }}</a>{% else %}{{ item.venue }}{% endif %}
+                    {%- if item.slides %} &middot; <a href="{{ item.slides | relative_url }}">Slides</a>{% endif %}
+                  </div>
+                </td>
+              </tr>
+              {%- endfor %}
+            </table>
+          </div>

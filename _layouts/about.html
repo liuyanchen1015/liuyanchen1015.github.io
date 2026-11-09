@@ -42,6 +42,7 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
+            {%- include contact_buttons.html %}
             {%- if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
@@ -52,12 +53,21 @@ layout: default
 
           <div class="clearfix">
             {{ content }}
+
+            {% if site.data.affiliations -%}
+            {%- include affiliations.html %}
+            {%- endif %}
           </div>
       
           {% if page.news -%}
           <!-- News -->
           <br>
           {%- include news.html %}
+          {%- endif %}
+
+          {% if page.experience and site.data.experience -%}
+          <!-- Experience -->
+          {%- include experience.html %}
           {%- endif %}
 
           <div style="margin-top: -100px;">
@@ -102,6 +112,16 @@ layout: default
             <!-- Selected papers -->
             <br><br><br>
             {%- include selected_papers.html %}
+          {%- endif %}
+
+          {% if page.awards and site.data.awards -%}
+          <!-- Honors & awards -->
+          {%- include awards.html %}
+          {%- endif %}
+
+          {% if page.talks and site.data.talks -%}
+          <!-- Talks -->
+          {%- include talks.html %}
           {%- endif %}
 
 <!-- 

@@ -1,0 +1,23 @@
+          <div class="section-block experience">
+            <h2>experience</h2>
+            <table class="table table-sm table-borderless section-table">
+              {%- for item in site.data.experience %}
+              <tr>
+                <th scope="row">{{ item.period }}</th>
+                <td>
+                  <div class="section-entry">
+                    {%- if item.logo %}
+                    <span class="section-logo"><img src="{{ item.logo | prepend: '/assets/img/' | relative_url }}" alt=""></span>
+                    {%- endif %}
+                    <span class="section-entry-text">
+                      <span class="section-org">{% if item.org_url %}<a href="{{ item.org_url }}" target="_blank" rel="noopener">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}</span>{% if item.unit %}<span class="section-unit">{{ item.unit }}</span>{% endif %}<span class="section-role">{{ item.role }}</span>
+                      {%- if item.note %}
+                      <span class="section-sub">{{ item.note }}</span>
+                      {%- endif %}
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              {%- endfor %}
+            </table>
+          </div>

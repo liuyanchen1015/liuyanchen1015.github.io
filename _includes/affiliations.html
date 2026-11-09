@@ -1,0 +1,11 @@
+            <div class="affiliations">
+              {%- for item in site.data.affiliations %}
+              <div class="affiliation-row">
+                <span class="affiliation-logo"><img src="{{ item.logo | prepend: '/assets/img/' | relative_url }}" alt=""></span>
+                <span class="affiliation-text">
+                  <span class="affiliation-org">{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}</span>
+                  <span class="affiliation-role">{{ item.role }}</span>
+                </span>
+              </div>
+              {%- endfor %}
+            </div>

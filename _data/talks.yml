@@ -1,0 +1,7 @@
+# Shown in the "talks" section on the homepage (_includes/talks.html).
+# Newest first.
+- date: Nov 2023
+  title: Dynamic Aggregation & Auto-Discovery of Linguistic Features
+  venue: Stanford NLP Group
+  venue_url: https://nlp.stanford.edu/
+  slides: /assets/pdf/DADA.pdf

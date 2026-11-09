@@ -8,10 +8,13 @@ profile:
   video: me_live.mp4
   image: me_live_poster.jpg
   image_circular: false # crops the image to make it circular
-  address: <p align="left"><font size="2">Cambridge, MA, USA 02139<br>Schwarzman College of Computing, MIT</font></p>
+  address: '<p class="affiliation-note">Cambridge, MA, USA 02139<br>Schwarzman College of Computing, MIT</p>'
 
 news: true  # includes a list of news items
+experience: true # includes the experience section from _data/experience.yml
 selected_papers: true # includes a list of papers marked as "selected={true}"
+awards: true # includes the honors & awards section from _data/awards.yml
+talks: true # includes the talks section from _data/talks.yml
 social: true  # includes social icons at the bottom of the page
 --- 
 

@@ -1,5 +1,9 @@
 
           <div class="publications">
-            <h2>selected publications</h2>
+            <h2 class="section-heading">
+              selected publications
+              <a class="section-link" href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
+            </h2>
+            <p class="section-note">* equal contribution. Full list on <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener">Google Scholar</a>.</p>
             {% bibliography -f papers -q @*[selected=true]* %}
           </div>

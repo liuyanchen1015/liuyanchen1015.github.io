@@ -1,0 +1,11 @@
+          <div class="section-block awards">
+            <h2>honors &amp; awards</h2>
+            <table class="table table-sm table-borderless section-table">
+              {%- for item in site.data.awards %}
+              <tr>
+                <th scope="row">{{ item.year }}</th>
+                <td>{{ item.text }}</td>
+              </tr>
+              {%- endfor %}
+            </table>
+          </div>

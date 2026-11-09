@@ -1,0 +1,20 @@
+            <!-- Email / CV / profiles, kept in the first screen so nobody has to
+                 scroll past the publications to find a way to get in touch -->
+            <div class="contact-row">
+              {%- if site.email %}
+              <a href="mailto:{{ site.email | encode_email }}" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              {%- endif %}
+              <a href="{{ '/YanchenLiu_CV.pdf' | relative_url }}" title="CV" aria-label="CV"><span class="contact-text">CV</span></a>
+              {%- if site.scholar_userid %}
+              <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+              {%- endif %}
+              {%- if site.github_username %}
+              <a href="https://github.com/{{ site.github_username }}" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+              {%- endif %}
+              {%- if site.linkedin_username %}
+              <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+              {%- endif %}
+              {%- if site.twitter_username %}
+              <a href="https://twitter.com/{{ site.twitter_username }}" title="X" aria-label="X" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+              {%- endif %}
+            </div>

@@ -1,0 +1,30 @@
+# Shown in the "experience" section on the homepage (_includes/experience.html).
+# Newest first; `note` may contain HTML, `logo` is a file in assets/img/.
+- period: 2025 – Present
+  org: MIT
+  org_url: https://www.mit.edu/
+  logo: MIT.png
+  unit: IDSS & CSAIL
+  role: Ph.D. student
+  note: Advised by <a href="https://people.csail.mit.edu/dhm/">Dylan Hadfield-Menell</a>.
+
+- period: 2023 – 2024
+  org: Stanford NLP Group
+  org_url: https://nlp.stanford.edu/
+  logo: Stanford.png
+  role: Visiting student
+  note: Advised by <a href="https://cs.stanford.edu/~diyiy/index.html">Diyi Yang</a>.
+
+- period: 2022 – 2024
+  org: Harvard University
+  org_url: https://www.harvard.edu/
+  logo: h.png
+  role: S.M. in Data Science
+  note: Advised by <a href="https://himalakkaraju.github.io/">Hima Lakkaraju</a>.
+
+- period: 2018 – 2022
+  org: Technical University of Munich
+  org_url: https://www.tum.de/en/
+  logo: TUM.png
+  role: B.Sc. in Computer Science
+  note: Minor in Computational Linguistics at <a href="https://www.lmu.de/en/">LMU</a>, advised by <a href="https://scholar.google.com/citations?user=qIL9dWUAAAAJ&hl=en">Hinrich Schütze</a>.

@@ -1,0 +1,11 @@
+# Shown under the profile photo (_includes/affiliations.html).
+# `logo` is a file in assets/img/.
+- org: Massachusetts Institute of Technology
+  role: Ph.D. student, IDSS &amp; CSAIL
+  logo: MIT.png
+  url: https://www.mit.edu/
+
+- org: Harvard University
+  role: S.M. in Data Science
+  logo: h.png
+  url: https://www.harvard.edu/
