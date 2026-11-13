@@ -166,7 +166,7 @@
           </div>
 
           {%- if entry.month %}
-          <div class="pub-date">{{ entry.month }} {{ entry.year }}</div>
+          <div class="pub-date">{{ entry.month | capitalize }} {{ entry.year }}</div>
           {%- endif %}
 
           <!-- {% if entry.keywords %}
