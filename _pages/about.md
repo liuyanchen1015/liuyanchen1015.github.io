@@ -10,6 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: '<p class="affiliation-note">Cambridge, MA, USA 02139<br>Schwarzman College of Computing, MIT</p>'
 
+affiliations: true # affiliation rows under the intro (_data/affiliations.yml)
 news: true  # includes a list of news items
 experience: true # includes the experience section from _data/experience.yml
 selected_papers: true # includes a list of papers marked as "selected={true}"

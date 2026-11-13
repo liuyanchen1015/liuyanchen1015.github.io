@@ -165,6 +165,10 @@
 
           </div>
 
+          {%- if entry.month %}
+          <div class="pub-date">{{ entry.month }} {{ entry.year }}</div>
+          {%- endif %}
+
           <!-- {% if entry.keywords %}
             <span class="tags-container"> 
                 {% assign keywords = entry.keywords | split: ',' %}
