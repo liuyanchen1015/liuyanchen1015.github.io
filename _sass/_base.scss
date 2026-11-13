@@ -250,17 +250,12 @@
 
 /* Current and previous affiliations, shown full width under the intro */
 .affiliations {
-    display: grid;
-    grid-template-columns: 1fr;
+    /* sized to the content: a lone entry keeps its name on one line instead of
+       being squeezed into half the column */
+    display: flex;
+    flex-wrap: wrap;
     gap: 0.75rem 2.5rem;
     margin: 1.4rem 0 0.25rem;
-
-    /* fixed columns, so the second entry starts at the same x whatever the
-       first one's name length */
-    @media (min-width: 576px) {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        max-width: 640px;
-    }
 }
 
 .affiliation-row {
