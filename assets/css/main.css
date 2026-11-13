@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*******************************************************************************
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
@@ -181,6 +180,12 @@ body.sticky-bottom-footer {
 }
 
 /* Citation count, refreshed weekly into _data/citations.yml */
+.pub-date {
+  font-size: 0.85rem;
+  color: #5f6368;
+  margin-top: 0.1rem;
+}
+
 .pub-cites {
   display: inline-flex;
   align-items: center;
@@ -409,8 +414,10 @@ body.sticky-bottom-footer {
 }
 
 .section-org {
+  display: block;
   font-weight: 400; /* body text is 300; emphasis comes from the darker colour */
   color: #1f2328;
+  line-height: 1.35;
 }
 
 /* logo + text, so every entry lines up on the same left edge */
@@ -439,13 +446,11 @@ body.sticky-bottom-footer {
   display: block;
 }
 
-.section-unit,
 .section-role {
+  display: block;
   color: #5f6368;
-}
-.section-unit:before,
-.section-role:before {
-  content: " ·";
+  font-size: 0.9rem;
+  line-height: 1.35;
 }
 
 .section-sub {
