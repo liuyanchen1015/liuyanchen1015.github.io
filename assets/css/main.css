@@ -186,6 +186,30 @@ body.sticky-bottom-footer {
   margin-top: 0.1rem;
 }
 
+/* Highlighted one-line summary, used sparingly (bib field: tldr) */
+.pub-tldr {
+  background-color: #eaf1fa;
+  color: #3c4043;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 0.45rem;
+}
+
+.pub-tldr-label {
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  color: var(--global-theme-color);
+  margin-right: 0.5em;
+}
+
+html[data-theme=dark] .pub-tldr {
+  background-color: rgba(38, 152, 186, 0.14);
+  color: var(--global-text-color);
+}
+
 .pub-cites {
   display: inline-flex;
   align-items: center;
