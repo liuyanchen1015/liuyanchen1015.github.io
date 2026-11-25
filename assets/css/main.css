@@ -197,6 +197,13 @@ body.sticky-bottom-footer {
   margin-top: 0.45rem;
 }
 
+.pub-tldr-logo {
+  height: 1.15em;
+  width: auto;
+  vertical-align: -0.22em;
+  margin-right: 0.35em;
+}
+
 .pub-tldr-label {
   font-weight: 600;
   font-size: 0.8rem;
