@@ -44,6 +44,22 @@
   - firstname: ["Henry", "Henry Castillo"]
     url: https://github.com/d0rbu
 
+"Shao":
+  - firstname: ["Yijia", "Yijia Shao"]
+    url: https://cs.stanford.edu/~shaoyj/
+
+"Li":
+  - firstname: ["Tianshi", "Tianshi Li"]
+    url: https://tianshili.me/
+
+"Shi":
+  - firstname: ["Weiyan", "Weiyan Shi"]
+    url: https://wyshi.github.io/
+
+"Chen":
+  - firstname: ["Jiaao", "Jiaao Chen"]
+    url: https://cs.stanford.edu/~jiaaoc/
+
 # "Zhang":
 #   - firstname: ["Chong", "Chong Zhang"]
 #     url: https://zita-ch.github.io/
