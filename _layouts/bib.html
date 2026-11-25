@@ -169,6 +169,10 @@
           <div class="pub-date">{{ entry.month | capitalize }} {{ entry.year }}</div>
           {%- endif %}
 
+          {%- if entry.tldr %}
+          <div class="pub-tldr"><span class="pub-tldr-label">TL;DR</span>{{ entry.tldr }}</div>
+          {%- endif %}
+
           <!-- {% if entry.keywords %}
             <span class="tags-container"> 
                 {% assign keywords = entry.keywords | split: ',' %}
