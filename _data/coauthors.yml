@@ -32,6 +32,18 @@
   - firstname: ["Hima Lakkaraju", "Hima", "Himabindu Lakkaraju", "Himabindu"]
     url: https://himalakkaraju.github.io/
 
+"Hadfield-Menell":
+  - firstname: ["Dylan", "Dylan Hadfield-Menell"]
+    url: https://people.csail.mit.edu/dhm/
+
+"Mayrink Verdun":
+  - firstname: ["Claudio", "Claudio Mayrink Verdun"]
+    url: https://claudioverdun.github.io/
+
+"Castillo":
+  - firstname: ["Henry", "Henry Castillo"]
+    url: https://github.com/d0rbu
+
 # "Zhang":
 #   - firstname: ["Chong", "Chong Zhang"]
 #     url: https://zita-ch.github.io/
