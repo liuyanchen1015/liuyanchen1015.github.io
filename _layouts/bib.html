@@ -170,7 +170,7 @@
           {%- endif %}
 
           {%- if entry.tldr %}
-          <div class="pub-tldr"><span class="pub-tldr-label">TL;DR</span>{{ entry.tldr }}</div>
+          <div class="pub-tldr"><span class="pub-tldr-label">TL;DR</span>{%- if entry.tldr_logo %}<img class="pub-tldr-logo" src="{{ entry.tldr_logo | prepend: '/assets/img/icons/' | relative_url }}" alt="">{%- endif %}{{ entry.tldr }}</div>
           {%- endif %}
 
           <!-- {% if entry.keywords %}
