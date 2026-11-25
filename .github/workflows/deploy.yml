@@ -18,7 +18,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.2'
+          ruby-version: '3.2' # latest 3.2.x: runner images only keep the newest patch of each series
           bundler-cache: true
 
       - name: Upgrade Bundler
