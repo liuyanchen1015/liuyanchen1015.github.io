@@ -221,7 +221,8 @@ html[data-theme=dark] .pub-tldr {
 .pub-video {
   display: block;
   width: 100%;
-  margin-top: 0.45rem;
+  max-width: 200px; /* the knob */
+  margin: 0.45rem auto 0; /* centred under the TL;DR box */
   border-radius: 8px;
 }
 
