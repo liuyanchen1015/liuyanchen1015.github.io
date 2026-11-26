@@ -123,6 +123,14 @@ html[data-theme='dark'] .pub-tldr {
     color: var(--global-text-color);
 }
 
+/* Silent looping overview clip under the TL;DR (bib field: video) */
+.pub-video {
+    display: block;
+    width: 100%;
+    margin-top: 0.45rem;
+    border-radius: 8px;
+}
+
 .pub-cites {
     display: inline-flex;
     align-items: center;

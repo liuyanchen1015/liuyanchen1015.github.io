@@ -176,6 +176,15 @@
           <div class="pub-tldr"><span class="pub-tldr-label">TL;DR</span>{%- if entry.tldr_logo %}<img class="pub-tldr-logo" src="{{ entry.tldr_logo | prepend: '/assets/img/icons/' | relative_url }}" alt="">{%- endif %}{{ entry.tldr }}</div>
           {%- endif %}
 
+          {%- if entry.video %}
+          <video class="pub-video z-depth-1"
+            autoplay loop muted playsinline
+            {% if entry.video_poster %}poster="{{ entry.video_poster | prepend: '/assets/video/' | relative_url }}"{% endif %}
+            aria-label="{{ entry.title }} — overview">
+            <source src="{{ entry.video | prepend: '/assets/video/' | relative_url }}" type="video/mp4">
+          </video>
+          {%- endif %}
+
           <!-- {% if entry.keywords %}
             <span class="tags-container"> 
                 {% assign keywords = entry.keywords | split: ',' %}
