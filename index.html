@@ -51,7 +51,7 @@
     
     <link rel="shortcut icon" href="/assets/img/ico.ico"/>
     
-    <link rel="stylesheet" href="/assets/css/main.css?v=1795667699">
+    <link rel="stylesheet" href="/assets/css/main.css?v=1795668439">
     <link rel="canonical" href="https://liuyanchen1015.github.io/">
     
     <!-- Dark Mode -->
@@ -277,7 +277,9 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="/assets/img/publication_preview/steerable_by_design.png"></div>
+        <div class="col-sm-2 preview"><video class="preview preview-video z-depth-1 rounded" autoplay loop muted playsinline poster="/assets/video/mancelle3b_launch_poster.jpg" data-video-src="/assets/video/mancelle3b_launch.mp4" data-video-poster="/assets/video/mancelle3b_launch_poster.jpg" title="Watch the overview" aria-label="Steerable by Design: Conditional Pretraining for Robust Control of Language Models — overview, click to watch">
+            <source src="/assets/video/mancelle3b_launch.mp4" type="video/mp4">
+          </source></video></div>
 
         <!-- Entry bib key -->
         <div id="Castillo2026Steerable" class="col-sm-8">
@@ -290,6 +292,7 @@
               <a href="http://arxiv.org/abs/2611.32199" class="pub-logo" title="arXiv" role="button" target="_blank" rel="noopener noreferrer"><img src="/assets/img/icons/arxiv.png" alt="arXiv"></a>
               <a href="https://github.com/d0rbu/mancelle" class="pub-logo" title="Code" role="button" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
               <a href="https://huggingface.co/d0rb/Mancelle-3B" class="pub-logo" title="Model" role="button" target="_blank" rel="noopener noreferrer"><img src="/assets/img/icons/huggingface.png" alt="Model"></a>
+              <a href="/assets/video/mancelle3b_launch.mp4" class="pub-logo" title="Video" role="button" data-video-src="/assets/video/mancelle3b_launch.mp4" data-video-poster="/assets/video/mancelle3b_launch_poster.jpg"><i class="fas fa-film"></i></a>
               <a href="https://mancelle.com/" class="pub-logo" title="Website" role="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
             </div>
           </div>
@@ -304,9 +307,6 @@
 </div>
           <div class="pub-tldr">
 <span class="pub-tldr-label">TL;DR</span><img class="pub-tldr-logo" src="/assets/img/icons/mancelle.png" alt="">Mancelle-3B — a 3B model pretrained with a separate, one-way control channel — survives black-box and white-box attacks through its input channel, keeping 92% of its concept score under the black-box attack that drops prompt steering on post-trained open models to 19–26%.</div>
-          <video class="pub-video z-depth-1" autoplay loop muted playsinline poster="/assets/video/mancelle3b_launch_poster.jpg" aria-label="Steerable by Design: Conditional Pretraining for Robust Control of Language Models — overview">
-            <source src="/assets/video/mancelle3b_launch.mp4" type="video/mp4">
-          </source></video>
 
           <!-- 
             <span class="tags-container"> 
@@ -743,12 +743,15 @@ Last updated: November 26, 2026.
     <!-- Masonry & imagesLoaded -->
   <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script defer src="/assets/js/masonry.js?v=1795667699" type="text/javascript"></script>
+  <script defer src="/assets/js/masonry.js?v=1795668439" type="text/javascript"></script>
     
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js?v=1795667699"></script><!-- Load Common JS -->
-  <script defer src="/assets/js/common.js?v=1795667699"></script>
+  <script defer src="/assets/js/zoom.js?v=1795668439"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js?v=1795668439"></script>
+
+  <!-- Click-to-enlarge for publication overview clips -->
+  <script defer src="/assets/js/video_lightbox.js?v=1795668439"></script>
 
     
 

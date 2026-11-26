@@ -217,13 +217,56 @@ html[data-theme=dark] .pub-tldr {
   color: var(--global-text-color);
 }
 
-/* Silent looping overview clip under the TL;DR (bib field: video) */
-.pub-video {
-  display: block;
+/* Silent looping overview clip in the thumbnail slot (bib field: video).
+   Sizing comes from .preview; this only adds the click affordance. */
+.preview-video {
+  cursor: zoom-in;
+}
+
+/* Click-to-enlarge overlay for those clips */
+.video-lightbox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 4vmin;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.video-lightbox.is-open {
+  display: flex;
+}
+
+.video-lightbox-player {
   width: 100%;
-  max-width: 200px; /* the knob */
-  margin: 0.45rem auto 0; /* centred under the TL;DR box */
+  max-width: 1100px;
+  max-height: 88vh;
   border-radius: 8px;
+  background-color: #000;
+}
+
+.video-lightbox-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1.25rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  font-size: 2.25rem;
+  line-height: 1;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.video-lightbox-close:hover,
+.video-lightbox-close:focus {
+  opacity: 1;
 }
 
 .pub-cites {
