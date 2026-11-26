@@ -3,8 +3,22 @@
 
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
-        {%- if entry.preview -%}
+        <div class="col-sm-2 {% if entry.preview or entry.video %}preview{% else %}abbr{% endif %}">
+        {%- if entry.video -%}
+          {%- assign video_src = entry.video | prepend: '/assets/video/' | relative_url -%}
+          {%- assign video_poster = nil -%}
+          {%- if entry.video_poster -%}
+            {%- assign video_poster = entry.video_poster | prepend: '/assets/video/' | relative_url -%}
+          {%- endif -%}
+          <video class="preview preview-video z-depth-1 rounded"
+            autoplay loop muted playsinline
+            {% if video_poster %}poster="{{ video_poster }}"{% endif %}
+            data-video-src="{{ video_src }}"{% if video_poster %} data-video-poster="{{ video_poster }}"{% endif %}
+            title="Watch the overview"
+            aria-label="{{ entry.title }} — overview, click to watch">
+            <source src="{{ video_src }}" type="video/mp4">
+          </video>
+        {%- elsif entry.preview -%}
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
@@ -62,6 +76,10 @@
               {%- endif %}
               {%- if entry.model %}
               <a href="{{ entry.model }}" class="pub-logo" title="Model" role="button"><img src="{{ '/assets/img/icons/huggingface.png' | relative_url }}" alt="Model"></a>
+              {%- endif %}
+              {%- if entry.video %}
+              <a href="{{ entry.video | prepend: '/assets/video/' | relative_url }}" class="pub-logo" title="Video" role="button"
+                 data-video-src="{{ entry.video | prepend: '/assets/video/' | relative_url }}"{% if entry.video_poster %} data-video-poster="{{ entry.video_poster | prepend: '/assets/video/' | relative_url }}"{% endif %}><i class="fas fa-film"></i></a>
               {%- endif %}
               {%- if entry.html %}
               <a href="{{ entry.html }}" class="pub-logo" title="Project page" role="button"><i class="fas fa-globe"></i></a>
@@ -174,15 +192,6 @@
 
           {%- if entry.tldr %}
           <div class="pub-tldr"><span class="pub-tldr-label">TL;DR</span>{%- if entry.tldr_logo %}<img class="pub-tldr-logo" src="{{ entry.tldr_logo | prepend: '/assets/img/icons/' | relative_url }}" alt="">{%- endif %}{{ entry.tldr }}</div>
-          {%- endif %}
-
-          {%- if entry.video %}
-          <video class="pub-video z-depth-1"
-            autoplay loop muted playsinline
-            {% if entry.video_poster %}poster="{{ entry.video_poster | prepend: '/assets/video/' | relative_url }}"{% endif %}
-            aria-label="{{ entry.title }} — overview">
-            <source src="{{ entry.video | prepend: '/assets/video/' | relative_url }}" type="video/mp4">
-          </video>
           {%- endif %}
 
           <!-- {% if entry.keywords %}
